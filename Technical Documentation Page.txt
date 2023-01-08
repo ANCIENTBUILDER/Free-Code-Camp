@@ -1,0 +1,68 @@
+  <!Doctype html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <nav id="navbar">
+        <header>Test of Mettle Documentation</header>
+        <ul>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#What You Should Already Know">What You Should Already Know</a></li>
+          <li><a class="nav-link" href="#ATOM App & Video Game">ATOM App & Video Game</a></li>
+          <li><a class="nav-link" href="#Purpose & Need">Purpose & Need</a></li>
+          <li><a class="nav-link" href="#Variables">Variables</a></li>
+          <li><a class="nav-link" href="#Declaring Variables">Declaring Variables</a></li>
+          <li><a class="nav-link" href="#Variable Scope">Variable Scope</a></li>
+          <li><a class="nav-link" href="#Global Variables">Global Variables</a></li>
+          <li><a class="nav-link" href="#Constants">Constants</a></li>
+          <li><a class="nav-link" href="#Data Types">Data Types</a></li>
+          <li><a class="nav-link" href="#If...Else Statement">If...Else Statement</a></li>
+          <li><a class="nav-link" href="#While Statement">While Statement</a></li>
+          <li><a class="nav-link" href="#Function Declarations">Function Declarations</a></li>
+          <li><a class="nav-link" href="#Reference">Reference</a></li>
+        </ul>
+        </nav>
+        <main id="main-doc">
+          <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+              <p>Test of Mettle is virtual and physical cross platform training and competition. It operates on any mobile phone, tablet, PC, or laptop and can be accessed by anyone. It operates on both digital and analog to ensure seamless operations of the entire platform and system. The Test of Mettle App is known as ATOM.</p>
+              <p>The draw is that members are paid a wage to train and compete in Test of Mettle experiences both in the virtual world of the video game, and to compete at any physical Test of Mettle Host Site.</p>
+            <ul>
+              <li>Virtual World</li>
+              <li>Physical World</li>
+            </ul>
+          </article>
+      </section>
+      <section class="main-section" id="What You Should Already Know">
+        <header>What You Should Already Know</header>
+        <article>
+              <p>Test of Mettle is a new type of training platform that begins in the virtual world, then draws you into the physical world, learning real world skills along the way that lead to an upgraded and improved version of the member.</p>
+              <ul>
+                <li>A general understanding of the internet and the World Wide Web</li>
+                <li>A good working knowledge of HyperText Markup Language (HTML)</li>
+                <li>Some basic programming experience. If you are new to programming, try one of the tutorials linked on the main page about.</li>
+                </ul>
+                </article>
+      </section>
+           <section class="main-section" id="Test of Mettle App & Video Game">
+             <header>Test of Mettle App & Video Game</header>
+             <article>
+              <p>The United Nations and the WEF have identified that climate change and the international job crisis are two of the most serious threats to civilization. BIOSPHERE Resorts and the Test of Mettle are member owned rapidly deployable solutions.</p>
+              <p>Test of Mettle experiences are standard, however, Test of Mettle Host Sites offer slight variables such as; location, weather, services, etc.</p>
+              <p>Earn to play and travel to play, this video game is a solution to the international job crisis.</p>
+            </article>
+           <section class="main-section" id="Purpose & Need">
+             <header>Purpose & Need</header>
+             <article>
+               To get started with the Test of Mettle, download the app and write your first "Hello World" Javascript Code:
+               <code>function greetMe(Erik) { alert("Hello " + yourName);}greetMe("World");</code>
+               Select the code in the pad and hit the Ctrl+R to watch it unfold in your browser!
+               </article>
+           <section class="main-section" id="Variables">
+             <header>Variables</header>
+             <p>Variables are used as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
+             <p>A JavaScript identifier must start with a letter, underscore(_), or dollar sign ($); subsequent characters can also be digits (0-9).
+    </body>
+  </html>

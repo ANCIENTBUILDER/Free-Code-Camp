@@ -58,11 +58,28 @@
              <article>
                To get started with the Test of Mettle, download the app and write your first "Hello World" Javascript Code:
                <code>function greetMe(Erik) { alert("Hello " + yourName);}greetMe("World");</code>
+
                Select the code in the pad and hit the Ctrl+R to watch it unfold in your browser!
                </article>
            <section class="main-section" id="Variables">
              <header>Variables</header>
              <p>Variables are used as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
-             <p>A JavaScript identifier must start with a letter, underscore(_), or dollar sign ($); subsequent characters can also be digits (0-9).
+             <p>A JavaScript identifier must start with a letter, underscore(_), or dollar sign ($); subsequent characters can also be digits (0-9). JavaScript is case sensitive.</p>
+           </section>
+           <section class="main-section" id="Declaring Variables">
+             <header>Declaring Variables</header>
+             <article>You can declare a variable in three ways:
+             <p>Variables are used as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
+             <p>A JavaScript identifier must start with a letter, underscore(_), or dollar sign ($); subsequent characters can also be digits (0-9). JavaScript is case sensitive.</p>
+             </article>
+           </section>
+           <section class="main-section" id="Variable Scope">
+             <header>Variable Scope</header>
+             <article> 
+             <p>Variables are used as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
+             <code>if (true) { var x = 5 } console.log(x); // 5</code>
+             <p>A JavaScript identifier must start with a letter, underscore(_), or dollar sign ($); subsequent characters can also be digits (0-9). JavaScript is case sensitive.</p>
+             </article>
+           </section>
     </body>
   </html>

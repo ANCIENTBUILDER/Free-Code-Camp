@@ -1,1 +1,111 @@
-FCC Build a Survey Form
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Test of Mettle Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="URF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">TEST YOUR METTLE</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform!</p>
+    <form action="" id="survey-form">
+      <div class="form-div">
+        <label>Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-div">
+        <label>Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-div">
+        <label id="number">Age (optional)</label>
+        <input type="number" min="1" max="120" id="age" name="age" placeholder="Age">
+      </div>
+      <div class="form-div">
+        <label id="dropdown-label">Which option best describes your current role?</label>
+        <select id="dropdown-role" name="dropdown">
+          <option value="">Select current role</option>
+          <option value="1">Student</option>
+          <option value="2">Full Time Job</option>
+          <option value="3">Full Time Learner</option>
+          <option value="4">Prefer not to say</option>
+          <option value="5">Other</option>
+        </select>
+      </div>
+      <div class="form-div">
+        <label id="label-radio">Do you want Test of Mettle Host Site near you?</label>
+      </div>
+        <div class="form-div">
+          <lable id="definitely"><input type="radio" value="definitely" name="recommend"> Definitely</label>
+        </div>
+        <div class="form-div">
+        <label id="label-radio"></label>
+      </div>
+        <div class="form-div">
+          <lable id="definitely"><input type="radio" value="Maybe" name="recommend"> Maybe</label>
+        </div>
+        <div class="form-div">
+        <label id="label-radio"></label>
+      </div>
+        <div class="form-div">
+          <lable id="definitely"><input type="radio" value="Not Sure" name="recommend"> Not Sure</label>
+        </div>
+      <div class="form-div">
+        </div>
+        <label id="dropdown-label">What is your favorite Test of Mettle experience?</label>
+        <select id="dropdown-role" name="dropdown">
+          <option value="">Select an option</option>
+          <option value="1">Mountain Biking</option>
+          <option value="2">Jogging</option>
+          <option value="3">Coding</option>
+          <option value="4">Hardware</option>
+          <option value="5">Other</option>
+        </select>
+      </div>
+      <div class="form-div">
+        <label id="label-checkbox">What would you like to see improved? (Check all that apply)</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="1"><label>Black Rabbit</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="2"><label>Chameleon</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="3"><label>Hell on Wheels</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="4"><label>Redemption</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="5"><label>Milestone</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="6"><label>Spy vs Spy</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="7"><label>War Games</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="8"><label>Stargazer</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="9"><label>Off-world</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="10"><label>The Deep End</label>
+      </div>
+      <div class="div-checkbox">
+        <input type="checkbox" name="improvement" value="11"><label>Additional Projects</label>
+      </div>
+      <br/>
+      <div class="form-div">
+        <label id="label-textarea">Comments or suggestions?</label>
+        <textarea name="suggestion" placeholder="Enter your comment here..."></textarea>
+      </div>
+      <div class="form-div"><input type="submit" value="Submit">
+      </div>  
+    </form>
+  </body>
+</html>

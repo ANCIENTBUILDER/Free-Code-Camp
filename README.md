@@ -5,3 +5,4 @@ Legacy Responsive Web Design Certification projects
 
 * Build a Tribute Page
 * Build a Survey Form
+* Build a Product Landing Page

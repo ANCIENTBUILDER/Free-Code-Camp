@@ -21,6 +21,10 @@
   </body>
   </html>
 
+body{
+  font-family: "Poppins", sans-serif;
+}
+
 #navbar{
   background-color: #be3144;
   position: fixed;
@@ -37,13 +41,13 @@
 }
 
 li{
-  list-style: none;
+  list-style: none;  
 }
 
 a{
   color: white;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 1rem 2rem;
 }
 

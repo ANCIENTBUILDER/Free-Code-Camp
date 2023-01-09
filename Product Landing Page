@@ -56,7 +56,7 @@
           </div>
         </div>
       <div id="howitworks"></div>
-        <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pn07qc?re=0&controls=0&showinfo=0" height="315" width="500" title="Product Video"></iframe>
+        <iframe id="video" src="https://youtu.be/y8Yv4pnO7qc" height="315" width="500" title="Product Video"></iframe>
       <div id="pricing">
         <div class="product">
           <div class="level">TENOR TROMBONE</div>

@@ -7,3 +7,4 @@ Legacy Responsive Web Design Certification projects
 * Build a Survey Form
 * Build a Product Landing Page
 * Build a Technical Documentaion Page
+* Build a Personal Portfolio Web Page

@@ -1,4 +1,4 @@
-  <!Doctype html>
+   <!Doctype html>
   <html>
     <head>
       <link rel="stylesheet" href="styles.css" />
@@ -56,10 +56,10 @@
            <section class="main-section" id="Purpose & Need">
              <header>Purpose & Need</header>
              <article>
-               To get started with the Test of Mettle, download the app and write your first "Hello World" Javascript Code:
+               <p>To get started with the Test of Mettle, download the app and write your first "Hello World" Javascript Code:</p>
                <code>function greetMe(Erik) { alert("Hello " + yourName);}greetMe("World");</code>
 
-               Select the code in the pad and hit the Ctrl+R to watch it unfold in your browser!
+               <p>Select the code in the pad and hit the Ctrl+R to watch it unfold in your browser!</p>
                </article>
            <section class="main-section" id="Variables">
              <header>Variables</header>
@@ -68,7 +68,7 @@
            </section>
            <section class="main-section" id="Declaring Variables">
              <header>Declaring Variables</header>
-             <article>You can declare a variable in three ways:
+             <article><p>You can declare a variable in three ways:</p>
              <p>Variables are used as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
              <p>A JavaScript identifier must start with a letter, underscore(_), or dollar sign ($); subsequent characters can also be digits (0-9). JavaScript is case sensitive.</p>
              </article>
@@ -76,10 +76,30 @@
            <section class="main-section" id="Variable Scope">
              <header>Variable Scope</header>
              <article> 
-             <p>Variables are used as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
-             <code>if (true) { var x = 5 } console.log(x); // 5</code>
+             <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
              <p>A JavaScript identifier must start with a letter, underscore(_), or dollar sign ($); subsequent characters can also be digits (0-9). JavaScript is case sensitive.</p>
+             <code>if (true) { var x = 5 } console.log(x); // 5</code>
+             <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
+             <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code>
              </article>
            </section>
+           <section class="main-section" id="Global_variables">
+             <header>Global Variables</header>
+             <article>
+               <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.</p>
+               <p>Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called phoneNumber is declared in a document, you can refer to this variable from an iframe as parent.phoneNumber.</p>
+             </article>
+          </section>
+          <section class="main-section" id="Constants">
+            <header>Constants</header>
+            <article>
+              <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
+              <code>const PI = 3.14;</code>
+              <p>A constant cannot change value through assignment or be re-declared while the script is running. It has to be initialized to a value.</p>
+              <p>The scope rules for constants are the same as those for let block scope variables. If the const keyword is omitted, the identifier is assumed to represent a variable.</p>
+              <p>You cannot declare a constant with the same name as a function or variable in the same scope. For example:</p>
+              <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; //THIS WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements }</code>
+              <p>However, object attributes are not protected, so the following statement is executed without problems.</p>
+              <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
     </body>
   </html>

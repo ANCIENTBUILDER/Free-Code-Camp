@@ -8,16 +8,19 @@
     <nav id="navbar">
       <ul id="nav-list">
         <li>
-          <a href="">About</a>
+          <a href="#welcome-section">About</a>
         </li>
         <li>
-          <a href="">Work</a>
+          <a href="#projects">Work</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
+    <section id="welcome-section" class="welcome-section"></section>
+    <section id="projects" class="projects"></section>
+    <section id="contact" class="contact"></section>
   </body>
   </html>
 

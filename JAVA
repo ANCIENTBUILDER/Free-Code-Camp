@@ -45,3 +45,6 @@ const myArray = ["The number is ", + "7"];
 
 Nest one Array within Another Array 
 const myArray = [["Bulls", 23], ["White Sox", 45]];
+
+Access Array Data with Indexes:
+

@@ -23,3 +23,4 @@ Find the Length of a String:
 lastNameLength = lastName.length;
 
 Use Bracket Notation to Find the First Character in a String:
+firstLetterOfLastName = lastName; // Change this line

@@ -41,4 +41,4 @@ Word Blanks:
 const wordBlanks = "My " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
 
 Store Multiple Values in one Variable using JavaScript Arrays
-const myArray = [];
+const myArray = ["The number is ", + "7"];

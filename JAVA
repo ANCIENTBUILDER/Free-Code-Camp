@@ -35,4 +35,4 @@ Use Bracket Notation to Find the Last Character in a String:
 const lastLetterOfLastName = lastName[lastName.length - 1];
 
 Use Bracket Notation to Find the Nth-to-Last Character in a String:
-
+const secondToLastLetterOfLastName = lastName;

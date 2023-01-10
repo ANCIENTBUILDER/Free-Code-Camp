@@ -11,3 +11,5 @@ let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence."
 
 Constructing Strings with Variables:
+const myName = "My name is ";
+const myStr = "and I am well!";

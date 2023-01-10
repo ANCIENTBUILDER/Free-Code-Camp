@@ -26,4 +26,6 @@ Use Bracket Notation to Find the First Character in a String:
 firstLetterOfLastName = lastName[0]; // Change this line
 
 Understand String Immutability:
-myStr[0] = "H";
+myStr = "Hello World";
+
+

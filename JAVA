@@ -28,4 +28,5 @@ firstLetterOfLastName = lastName[0]; // Change this line
 Understand String Immutability:
 myStr = "Hello World";
 
-
+Use Bracket Notation to Find the Nth Character in a String:
+const thirdLetterOfLastName = lastName;

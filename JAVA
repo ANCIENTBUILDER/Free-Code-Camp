@@ -1,1 +1,5 @@
 JavaScript Algorithms and Data Structures
+
+Escape Sequences in Strings:
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+

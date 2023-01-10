@@ -13,3 +13,5 @@ myStr += "This is the second sentence."
 Constructing Strings with Variables:
 const myName = "Rik";
 const myStr = "My name is " + myName + " and I am well!";
+
+Appending Variables to Strings:

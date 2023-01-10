@@ -42,3 +42,6 @@ const wordBlanks = "My " + myAdjective + " " + myNoun + " " + myVerb + " " + myA
 
 Store Multiple Values in one Variable using JavaScript Arrays
 const myArray = ["The number is ", + "7"];
+
+Nest one Array within Another Array 
+const myArray = [["Bulls", 23], ["White Sox", 45]];

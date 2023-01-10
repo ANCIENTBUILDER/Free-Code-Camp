@@ -18,3 +18,5 @@ Appending Variables to Strings:
 const someAdjective = "the bomb";
 let myStr = "Learning to code is ";
 myStr += someAdjective;
+
+Find the Length of a String:

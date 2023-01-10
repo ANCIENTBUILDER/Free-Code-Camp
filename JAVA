@@ -20,4 +20,4 @@ let myStr = "Learning to code is ";
 myStr += someAdjective;
 
 Find the Length of a String:
-lastNameLength = lastName;
+lastNameLength = lastName.length;

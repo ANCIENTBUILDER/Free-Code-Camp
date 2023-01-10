@@ -15,3 +15,5 @@ const myName = "Rik";
 const myStr = "My name is " + myName + " and I am well!";
 
 Appending Variables to Strings:
+const someAdjective = "";
+let myStr = "Learning to code is ";

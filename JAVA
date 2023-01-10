@@ -40,3 +40,5 @@ const secondToLastLetterOfLastName = lastName[lastName.length -2];
 Word Blanks:
 const wordBlanks = "My " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
 
+Store Multiple Values in one Variable using JavaScript Arrays
+const myArray = [];

@@ -87,12 +87,15 @@ myArray.unshift(["Paul", 35]);
 Shopping List
 const myList = [["Chocolate Bar", 15], ["Steak", 3], ["Rice", 1], ["Salt", 1], ["Ice Cream", 2]];
 
-Write Reusable JavaScript with Functions
+Write Reusable JavaScript with Functions:
 function reusableFunction() {
   console.log("Hi World");
 }
-
 reusableFunction();
 
-
+Passing Values to Functions with Arguments:
+function testFun(param1, param2) {
+  console.log(param1, param2);
+}
+testFun("costa", "rica");
 

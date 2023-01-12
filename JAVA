@@ -88,5 +88,11 @@ Shopping List
 const myList = [["Chocolate Bar", 15], ["Steak", 3], ["Rice", 1], ["Salt", 1], ["Ice Cream", 2]];
 
 Write Reusable JavaScript with Functions
+function ourReusableFunction() {
+  console.log("Hi World");
+}
+
+ourReusableFunction();
+
 
 

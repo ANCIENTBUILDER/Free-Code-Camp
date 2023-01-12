@@ -65,3 +65,6 @@ const myArray = [
 const myData = myArray[0][0];
 
 https://www.youtube.com/watch?v=3zUVQZc4XDc
+
+Access Multi-Dimensional Arrays With Indexes:
+const myData = myArray [2] + [1];

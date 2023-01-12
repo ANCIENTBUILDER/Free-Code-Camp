@@ -84,5 +84,6 @@ myArray.unshift(["Paul", 35]);
 
 **********  1. pop removes from end of array, 2. shift removes from front of array, 3. unshift adds to front of array, 4. push adds to end of array
 
+Shopping List
 
 

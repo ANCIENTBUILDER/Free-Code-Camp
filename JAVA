@@ -77,3 +77,7 @@ Manipulate Arrays With shift():
 const myArray = [["John", 23], ["dog", 3]];
 const removedFromMyArray = myArray.shift();
 
+Manipulate Arrays With unshift():
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+

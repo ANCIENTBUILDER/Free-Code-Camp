@@ -70,5 +70,4 @@ Access Multi-Dimensional Arrays With Indexes:
 const myData = myArray [2] + [1];
 
 Manipulate Arrays With push():
-const myArray = [["John", 23], ["cat", 2]];
-
+const myArray = [["John", 23], ["cat", 2], ["dog", 3]];

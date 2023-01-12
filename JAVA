@@ -323,4 +323,22 @@ function testLogicalAnd(val) {
 
 testLogicalAnd(10);
 
+Comparisons with the Logical Or Operator:
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val) {
+    return "Outside";
+  }
+
+  if (val) {
+    return "Outside";
+  }
+
+  // Only change code above this line
+  return "Inside";
+}
+
+testLogicalOr(15);
+
 

@@ -185,10 +185,6 @@ Stand in Line:
   return item;
 
 Understanding Boolean Values:
-function welcomeToBooleans() {
-  // Only change code below this line
-
-  return false; // Change this line
-
-  // Only change code above this line
-}
+  return true;  
+  
+  

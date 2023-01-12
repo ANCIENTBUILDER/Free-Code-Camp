@@ -94,6 +94,7 @@ function reusableFunction() {
 reusableFunction();
 
 Passing Values to Functions with Arguments:
+// Example
 function ourFunctionWithArgs(a, b) {
   console.log(a, b);
 }
@@ -103,4 +104,12 @@ function testFun(param1, param2) {
 }
 
 testFun("3", "16");
+
+// Only change code below this line.
+
+function functionWithArgs(one, two) {
+  console.log(one + two);
+}
+
+functionWithArgs(22,2);
 

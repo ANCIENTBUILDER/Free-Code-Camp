@@ -194,4 +194,13 @@ if (wasThatTrue) {
 
   return "No, that was false";
   
-  
+  Comparison with the Equality Operator:
+  // Setup
+function testEqual(val) {
+  if (val) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testEqual(10);

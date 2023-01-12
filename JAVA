@@ -61,9 +61,7 @@ const myArray = [
   [7, 8, 9],
   [[10, 11, 12], 13, 14],
 ];
-
 const myData = myArray[0][0];
-
 https://www.youtube.com/watch?v=3zUVQZc4XDc
 
 Access Multi-Dimensional Arrays With Indexes:
@@ -71,3 +69,5 @@ const myData = myArray [2] + [1];
 
 Manipulate Arrays With push():
 const myArray = [["John", 23], ["cat", 2], ["dog", 3]];
+
+Manipulate Arrays With pop():

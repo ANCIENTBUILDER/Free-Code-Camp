@@ -609,6 +609,10 @@ Build JavaScript Objects:
 const myDog = {
   // Only change code below this line
 
+  "name": "The Black Key",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["lassy", "spot"]
 
   // Only change code above this line
 };

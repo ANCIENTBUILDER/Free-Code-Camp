@@ -551,7 +551,7 @@ Return Early Pattern for Functions:
 function abTest(a, b) {
   // Only change code below this line
 
-if (a <= 0 || b <= 0) {
+if (a < 0 || b < 0){
   return undefined;
 }
 
@@ -561,3 +561,5 @@ if (a <= 0 || b <= 0) {
 }
 
 abTest(2,2);
+
+console.log(abTest(0, 0))

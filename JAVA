@@ -929,7 +929,21 @@ const contacts = [
 function lookUpProfile(name, prop) {
   // Only change code below this line
 
+for (let i = 0; i < contacts.length; i++){
+  if (name === contacts[i].firstName){
+    if (contacts[i].hasOwnProperty(prop)){
+      return contacts[i][prop];
+    } else {
+        return "No such property"
+    }
+  }
+}
+
+return "No such Contact"
+lookUpProfile("Bob", "number");
   // Only change code above this line
 }
 
 lookUpProfile("Akira", "likes");
+
+console.log(lookUpProfile("Bob", "number", "potato"));

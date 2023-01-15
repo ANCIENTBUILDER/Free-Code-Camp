@@ -797,3 +797,9 @@ function updateRecords(records, id, prop, value) {
   return records;
 }
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
+
+Iterate with JavaScript While Loops:
+// Setup
+const myArray = [];
+
+// Only change code below this line

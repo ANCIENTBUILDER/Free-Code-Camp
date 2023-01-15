@@ -711,5 +711,14 @@ const myMusic = [
       "LP"
     ],
     "gold": true
+  },
+  {
+    "artist": "Rockstar",
+    "title": "Rock Music",
+    "release_year": 2021,
+    "formats": [
+      "CD",
+      "8T"
+    ]
   }
 ];

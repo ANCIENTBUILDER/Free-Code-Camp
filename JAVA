@@ -688,52 +688,9 @@ const myDog = {
 // Only change code below this line
 delete myDog.tails
 
-Using Objects for Lookups:
-// Setup
-function phoneticLookup(val) {
-  let result = "";
-
+Testing Objects for Properties:
+function checkObj(obj, checkProp) {
   // Only change code below this line
-
-var lookup = {
-  "alpha": "Adams",
-  "bravo": "Boston",
-  "charlie": "Chicago",
-  "delta": "Denver",
-  "echo": "Easy",
-  "foxtrot": "Frank"
-}
-
-result = lookup[val]
-
+  return "Change Me!";
   // Only change code above this line
-  return result;
 }
-
-phoneticLookup("charlie");
-console.log(phoneticLookup("charlie"))
-
-Using Objects for Lookups:
-// Setup
-function phoneticLookup(val) {
-  let result = "";
-
-  // Only change code below this line
-
-var lookup = {
-  "alpha": "Adams",
-  "bravo": "Boston",
-  "charlie": "Chicago",
-  "delta": "Denver",
-  "echo": "Easy",
-  "foxtrot": "Frank"
-}
-
-result = lookup[val]
-
-  // Only change code above this line
-  return result;
-}
-
-phoneticLookup("charlie");
-console.log(phoneticLookup("charlie"))

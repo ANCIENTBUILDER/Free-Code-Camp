@@ -808,3 +808,9 @@ while (i >= 0){
   myArray.push(i);
   i--;
 }
+
+Iterate with JavaScript For Loops:
+// Setup
+const myArray = [];
+
+// Only change code below this line

@@ -972,3 +972,8 @@ function randomRange(myMin, myMax) {
 }
 
 Use the parseInt Function:
+function convertToInteger(str) {
+
+}
+
+convertToInteger("56");

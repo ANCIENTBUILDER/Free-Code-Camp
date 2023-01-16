@@ -54,7 +54,6 @@ Set Default Parameters for Your Functions:
 const increment = (number, value = 1) => number + value;
 
 Use the Rest Parameter with Function Parameters:
-const sum = (x, y, z) => {
-  const args = [x, y, z];
+const sum = (...args) => {
   return args.reduce((a, b) => a + b, 0);
 }

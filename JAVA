@@ -962,3 +962,10 @@ function randomWholeNum() {
 }
 
 console.log(randomWholeNum)
+
+Generate Random Whole Numbers within a Range:
+function randomRange(myMin, myMax) {
+  // Only change code below this line
+  return 0;
+  // Only change code above this line
+}

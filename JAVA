@@ -953,4 +953,10 @@ function randomFraction() {
 
 console.log(randomFraction())
 
+Generate Random Whole Numbers with JavaScript:
+function randomWholeNum() {
 
+  // Only change code below this line
+
+  return Math.random();
+}

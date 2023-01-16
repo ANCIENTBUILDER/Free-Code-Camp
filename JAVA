@@ -970,3 +970,5 @@ function randomRange(myMin, myMax) {
   return rand;
   // Only change code above this line
 }
+
+Use the parseInt Function:

@@ -1004,6 +1004,12 @@ checkSign(10);
 Use Recursion to Create a Countdown:
 // Only change code below this line
 function countdown(n){
-  return;
+  if ( n < 1 ) {
+    return [];
+  } else {
+    let array = countdown(n-1);
+    array.unshift(n)
+    return array
+  }
 }
 // Only change code above this line

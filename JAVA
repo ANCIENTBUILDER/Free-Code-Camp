@@ -1016,5 +1016,11 @@ function countdown(n){
 
 Use Recursion to Create a Range of Numbers:
 function rangeOfNumbers(startNum, endNum) {
-  return [];
+  if ( endNum < startNum ){
+    return [];
+  } else {
+    let nums = rangeOfNumbers(startNum, endNum-1)
+    nums.push(endNum);
+  return nums;
+  }
 };

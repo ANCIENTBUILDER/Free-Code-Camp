@@ -1013,3 +1013,8 @@ function countdown(n){
   }
 }
 // Only change code above this line
+
+Use Recursion to Create a Range of Numbers:
+function rangeOfNumbers(startNum, endNum) {
+  return [];
+};

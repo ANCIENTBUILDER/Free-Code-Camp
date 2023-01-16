@@ -45,6 +45,5 @@ Object.freeze(MATH_CONSTANTS);
 const PI = freezeObj();
 
 Use Arrow Functions to Write Concise Anonymous Functions:
-var magic = function() {
-  return new Date();
-};
+const magic = () => new Date();
+

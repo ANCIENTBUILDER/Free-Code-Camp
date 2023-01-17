@@ -144,9 +144,11 @@ const result = {
 };
 function makeList(arr) {
   // Only change code below this line
-  const failureItems = [];
+  const failureItems = arr.map(x => {
+    return `<li class="text-warning">${x}</li>`
+  })
   // Only change code above this line
-
+  console.log(failureItems)
   return failureItems;
 }
 

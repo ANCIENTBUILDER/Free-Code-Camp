@@ -24,3 +24,8 @@ Extract Matches:
 let twinkleStar = "Twinkle, twinkle, little star";
 let starRegex = /TWINKLE/ig; // Change this line
 let result = twinkleStar.match(starRegex); // Change this line
+
+Match Anything with Wildcard Period:
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /change/; // Change this line
+let result = unRegex.test(exampleStr);

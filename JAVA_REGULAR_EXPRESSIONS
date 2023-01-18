@@ -21,6 +21,6 @@ let fccRegex = /freecodecamp/i; // Change this line
 let result = fccRegex.test(myString);
 
 Extract Matches:
-let extractStr = "Extract the word 'coding' from this string.";
-let codingRegex = /coding/; // Change this line
-let result = extractStr.match(codingRegex); // Change this line
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /TWINKLE/ig; // Change this line
+let result = twinkleStar.match(starRegex); // Change this line

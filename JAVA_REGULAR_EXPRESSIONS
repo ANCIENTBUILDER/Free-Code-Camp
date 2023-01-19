@@ -52,4 +52,7 @@ let myRegex = /[^0-9aeiou]/gi; // Change this line
 let result = quoteSample.match(myRegex); // Change this line
 console.log(result);
 
-
+Match Characters that Occur One or More Times:
+let difficultSpelling = "Mississippi";
+let myRegex = /change/; // Change this line
+let result = difficultSpelling.match(myRegex);

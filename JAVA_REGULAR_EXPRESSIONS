@@ -37,5 +37,5 @@ let result = quoteSample.match(vowelRegex); // Change this line
 
 Match Letters of the Alphabet:
 let quoteSample = "The quick brown fox jumps over the lazy dog.";
-let alphabetRegex = /change/; // Change this line
-let result = alphabetRegex; // Change this line
+let alphabetRegex = /[a-z]/ig; // Change this line
+let result = qoteSample.match(alphabetRegex); // Change this line

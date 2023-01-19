@@ -134,5 +134,5 @@ let result = timRegex.test(timStr);
 
 Check for All or None:
 let favWord = "favorite";
-let favRegex = /change/; // Change this line
+let favRegex = /favou?rite/; // Change this line
 let result = favRegex.test(favWord);

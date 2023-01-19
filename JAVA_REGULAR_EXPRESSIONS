@@ -136,3 +136,8 @@ Check for All or None:
 let favWord = "favorite";
 let favRegex = /favou?rite/; // Change this line
 let result = favRegex.test(favWord);
+
+Positive and Negative Lookahead:
+let sampleWord = "astronaut";
+let pwRegex = /change/; // Change this line
+let result = pwRegex.test(sampleWord);

@@ -37,3 +37,13 @@ console.log(`Sum of array values is: ${arraySum}`);
 Catch Mixed Usage of Single and Double Quotes:
 let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
 console.log(innerHtml);
+
+Catch Missing Open and Closing Parenthesis After a Function Call:
+function getNine() {
+  let x = 6;
+  let y = 3;
+  return x + y;
+}
+
+let result = getNine;
+console.log(result);

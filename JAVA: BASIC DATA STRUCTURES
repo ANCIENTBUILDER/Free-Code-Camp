@@ -6,6 +6,6 @@ let yourArray = ["Ancient Builder", 117, true, "coder", 369]; // Change this lin
 Access an Array's Contents Using Bracket Notation:
 let myArray = ["a", "b", "c", "d"];
 // Only change code below this line
-
+myArray[1] = "Ancient Builder";
 // Only change code above this line
 console.log(myArray);

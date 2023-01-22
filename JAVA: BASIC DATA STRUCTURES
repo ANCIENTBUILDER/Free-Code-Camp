@@ -9,3 +9,14 @@ let myArray = ["a", "b", "c", "d"];
 myArray[1] = "Ancient Builder";
 // Only change code above this line
 console.log(myArray);
+
+Add Items to an Array with push() and unshift():
+function mixedNumbers(arr) {
+  // Only change code below this line
+
+  // Only change code above this line
+  return arr;
+}
+
+console.log(mixedNumbers(['IV', 5, 'six']));
+

@@ -3,4 +3,9 @@ JAVA: BASIC DATA STRUCTURES
 Use an Array to Store a Collection of Data:
 let yourArray = ["Ancient Builder", 117, true, "coder", 369]; // Change this line
 
+Access an Array's Contents Using Bracket Notation:
+let myArray = ["a", "b", "c", "d"];
+// Only change code below this line
 
+// Only change code above this line
+console.log(myArray);

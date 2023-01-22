@@ -20,3 +20,11 @@ arr.push(7, "VIII", 9);
 }
 console.log(mixedNumbers(['IV', 5, 'six']));
 
+Remove Items from an Array with pop() and shift():
+function popShift(arr) {
+  let popped; // Change this line
+  let shifted; // Change this line
+  return [shifted, popped];
+}
+
+console.log(popShift(['challenge', 'is', 'not', 'complete']));

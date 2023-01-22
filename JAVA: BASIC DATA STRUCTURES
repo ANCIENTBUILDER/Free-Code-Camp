@@ -1,4 +1,6 @@
 JAVA: BASIC DATA STRUCTURES
 
 Use an Array to Store a Collection of Data:
-let yourArray; // Change this line
+let yourArray = ["Ancient Builder", 117, true, "coder", 369]; // Change this line
+
+

@@ -8,6 +8,6 @@ convertCtoF(30);
 
 Reverse a String:
 function reverseString(str) {
-  return str;
+  return str.split("").reverse().join("");
 }
 reverseString("hello");

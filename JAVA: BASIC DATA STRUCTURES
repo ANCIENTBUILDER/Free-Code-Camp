@@ -193,9 +193,15 @@ let users = {
 };
 
 function isEveryoneHere(userObj) {
-  // Only change code below this line
-  
-  // Only change code above this line
+// Only change code below this line
+  let everyone = ["Alan", "Jeff", "Sarah", "Ryan"];
+  for (let i = 0; i < everyone.length; i += 1) {
+    let student = everyone[i];
+    if (users.hasOwnProperty(student) === false) {
+      return false;
+  }
 }
-
-console.log(isEveryoneHere(users));
+return true;  
+// Only change code above this line
+}
+console.log(isEveryoneHere());

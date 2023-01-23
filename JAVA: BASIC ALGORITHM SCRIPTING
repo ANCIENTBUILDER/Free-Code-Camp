@@ -94,7 +94,7 @@ function findElement(arr, func) {
 }
 console.log(findElement([1, 2, 3, 4], num => num % 2 === 0));
 
-Boo who:
+Boo Who:
 function booWho(bool) {
   if (typeof bool == "boolean") {
     return true;
@@ -102,3 +102,10 @@ function booWho(bool) {
   return false;
 }
 console.log(booWho(false));
+
+Title Case a Sentence:
+function titleCase(str) {
+  return str;
+}
+
+titleCase("I'm a little tea pot");

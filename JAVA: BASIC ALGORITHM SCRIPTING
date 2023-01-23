@@ -93,3 +93,12 @@ function findElement(arr, func) {
   return undefined;
 }
 console.log(findElement([1, 2, 3, 4], num => num % 2 === 0));
+
+Boo who:
+function booWho(bool) {
+  if (typeof bool == "boolean") {
+    return true;
+  }
+  return false;
+}
+console.log(booWho(false));

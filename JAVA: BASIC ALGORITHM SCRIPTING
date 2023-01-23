@@ -105,7 +105,19 @@ console.log(booWho(false));
 
 Title Case a Sentence:
 function titleCase(str) {
-  return str;
+  let result = "";
+  let words = str.split("");
+  for (let i = 0; i < words.length; i += 1){
+    let word = words[i];
+    for (let j = 0; j < word.length; j += 1){
+      if (j === 0) {
+        result += word[j].toUpperCase();
+      } else {
+        result += word[j].toLowerCase();
+      }
+    }
+    result += " ";
+  }
+  return result.slice(0, result.length - 1);
 }
-
-titleCase("I'm a little tea pot");
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));

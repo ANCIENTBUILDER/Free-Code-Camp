@@ -139,6 +139,16 @@ console.log(bouncer([7, "ate", "", false, 9]));
 
 Where do I Belong:
 function getIndexToIns(arr, num) {
-  return num;
+  let sortedArray = arr.sort(function(a, b) { return a - b });
+  console.log(sortedArray);
+  for (let i = 0; i < sortedArray.length; i += 1){
+    if (num > arr[i - 1] && num <= arr[i]) {
+      return i;
+    }
+  }
+if (sortedArray[sortedArray.length - 1] < num) {
+  return sortedArray.length;
 }
-getIndexToIns([40, 60], 50);
+return 0;
+}
+console.log(getIndexToIns([2, 5, 10], 15));

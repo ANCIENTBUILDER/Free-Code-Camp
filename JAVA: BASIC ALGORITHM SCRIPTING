@@ -152,3 +152,9 @@ if (sortedArray[sortedArray.length - 1] < num) {
 return 0;
 }
 console.log(getIndexToIns([2, 5, 10], 15));
+
+Mutations:
+function mutation(arr) {
+  return arr;
+}
+mutation(["hello", "hey"]);

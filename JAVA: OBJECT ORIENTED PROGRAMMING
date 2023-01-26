@@ -47,3 +47,7 @@ function Dog() {
 // Only change code below this line
 let hound = new Dog();
 console.log(hound);
+
+Extend Constructors to Receive Arguments:
+function Dog() {
+}

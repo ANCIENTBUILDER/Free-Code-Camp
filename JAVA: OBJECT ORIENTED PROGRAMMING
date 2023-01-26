@@ -14,3 +14,10 @@ let dog = {
 // Only change code below this line
 console.log(dog.name);
 console.log(dog.numLegs);
+
+Create a Method on an Object:
+let dog = {
+  name: "Spot",
+  numLegs: 4,
+};
+dog.sayLegs();

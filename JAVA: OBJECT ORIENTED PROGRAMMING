@@ -81,3 +81,10 @@ for (let property in canary) {
   }
 }
 console.log(ownProps);
+
+Use Prototype Properties to Reduce Duplicate Code:
+function Dog(name) {
+  this.name = name;
+}
+// Only change code above this line
+let beagle = new Dog("Snoopy");

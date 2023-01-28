@@ -1,3 +1,4 @@
+JAVA: ES6  
 ES6 - JavaScript Algorithms and Data Structures
 
 Compare Scopes of the var and let Keywords:
@@ -299,3 +300,5 @@ const makeServerRequest = new Promise((resolve, reject) => {
 makeServerRequest.then(result => {
   console.log(result);
 });
+
+JAVA: ES6 COMPLETED

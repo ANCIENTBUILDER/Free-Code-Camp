@@ -128,4 +128,11 @@ function Dog(name) {
 }
 Dog.prototype = {
   // Only change code below this line
+  numLegs: 4,
+  eat: function() {
+    console.log("yum yum yum");
+  },
+  describe: function() {
+    console.log("Me name is" + this.name)
+  }
 };

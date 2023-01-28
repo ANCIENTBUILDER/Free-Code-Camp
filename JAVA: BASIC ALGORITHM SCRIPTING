@@ -1,4 +1,4 @@
-JAVA: BASIC ALGORITHM SCRIPTING
+JAVA: BASIC ALGORITHM SCRIPTING COMPLETED
 
 Convert Celsius to Fahrenheit:
 function convertCtoF(celsius) {
@@ -176,3 +176,5 @@ function chunkArrayInGroups(arr, size) {
   return result;
 }
 console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2));
+
+JAVA: BASIC ALGORITHM SCRIPTING COMPLETED

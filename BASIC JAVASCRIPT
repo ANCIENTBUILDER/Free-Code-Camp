@@ -1,3 +1,5 @@
+JAVA: BASIC JAVASCRIPT  
+
 JavaScript Algorithms and Data Structures
 
 Escape Sequences in Strings:
@@ -1024,3 +1026,5 @@ function rangeOfNumbers(startNum, endNum) {
   return nums;
   }
 };
+
+JAVA: BASIC JAVASCRIPT COMPLETED

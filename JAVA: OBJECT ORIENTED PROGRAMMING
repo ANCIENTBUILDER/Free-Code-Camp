@@ -306,8 +306,6 @@ function Bird() {
 }
 
 Understand the Immediately Invoked Function Expression (IIFE):
-function makeNest() {
+(function makeNest() {
   console.log("A cozy nest is ready");
-}
-
-makeNest();
+})();

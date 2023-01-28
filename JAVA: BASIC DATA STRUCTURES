@@ -285,3 +285,5 @@ return userObj.data.friends;
   // Only change code above this line
 }
 console.log(addFriend(user, 'Pete'));
+
+JAVA: BASIC DATA STRUCTURES COMPLETED

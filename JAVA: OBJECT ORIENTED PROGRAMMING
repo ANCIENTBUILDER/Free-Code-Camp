@@ -328,3 +328,5 @@ let funModule = (function() {
 })();
 
 console.log(typeof funModule);
+
+JAVA: OBJECT ORIENTED PROGRAMMING COMPLETED

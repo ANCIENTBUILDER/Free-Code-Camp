@@ -238,3 +238,18 @@ let beagle = new Dog();
 
 console.log(duck.constructor);
 console.log(beagle.constructor);
+
+Add Methods After Inheritance:
+function Animal() { }
+Animal.prototype.eat = function() { console.log("nom nom nom"); };
+
+function Dog() { }
+
+// Only change code below this line
+
+
+
+
+// Only change code above this line
+
+let beagle = new Dog();

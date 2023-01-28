@@ -1,4 +1,4 @@
-DEBUGGING JAVA
+JAVA: DEBUGGING
 
 Use the JavaScript Console to Check the Value of a Variable:
 let a = 5;
@@ -99,3 +99,5 @@ function myFunc() {
     console.log("Still going!");
   }
 }
+
+JAVA: DEBUGGING COMPLETED

@@ -121,3 +121,13 @@ return [].concat(arr).sort(function(a, b) {
 
 Split a String into an Array Using the split Method:
 return str.split(/\W/)
+
+Combine an Array into a String Using the join Method:
+function sentensify(str) {
+  // Only change code below this line
+
+
+  // Only change code above this line
+}
+
+sentensify("May-the-force-be-with-you");

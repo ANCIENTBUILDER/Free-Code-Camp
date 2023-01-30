@@ -128,10 +128,13 @@ let joinedResult = disectedResult.join(" ");
 return joinedResult;
 
 Apply Functional Programming to Convert Strings to URL Slugs:
-// Only change code below this line
 function urlSlug(title) {
-
-
+  let titleDividedIntoLowercaseWords = title.slice()
+.toLowerCase().split(" ");
+  let filteredWords = titleDividedIntoLowercaseWords.filter (function(word) {
+    if (word != "") {
+      return word;
+    }
+  })
+  return filteredWords.join("-");
 }
-// Only change code above this line
-urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");

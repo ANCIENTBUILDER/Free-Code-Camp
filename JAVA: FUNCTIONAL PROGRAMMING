@@ -66,3 +66,12 @@ const filteredList = watchList.map(function(individualMovie) {
     return individualMovie;
   }
 });
+
+Implement the filter Method on a Prototype:
+Array.prototype.myFilter = function(callback) {
+  const newArray = [];
+  // Only change code below this line
+
+  // Only change code above this line
+  return newArray;
+};

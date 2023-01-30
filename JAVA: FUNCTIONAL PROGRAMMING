@@ -126,3 +126,12 @@ Combine an Array into a String Using the join Method:
 let disectedResult = str.split(/\W/);
 let joinedResult = disectedResult.join(" ");
 return joinedResult;
+
+Apply Functional Programming to Convert Strings to URL Slugs:
+// Only change code below this line
+function urlSlug(title) {
+
+
+}
+// Only change code above this line
+urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");

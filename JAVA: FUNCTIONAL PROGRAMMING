@@ -148,5 +148,4 @@ return arr.some(v => { return v > 0; });
 Introduction to Currying and Partial Application:
 return y => z => y + x + z;
 
-
-END OF FUNCTIONAL PROGRAMMING
+JAVA: FUNCTIONAL PROGRAMMING COMPLETED

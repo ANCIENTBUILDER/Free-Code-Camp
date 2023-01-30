@@ -22,24 +22,21 @@ function incrementer (valueToIncrement) {
 Refactor Global Variables Out of Functions:
 // The global variable
 const bookList = ["The Hound of the Baskervilles", "On The Electrodynamics of Moving Bodies", "Philosophiæ Naturalis Principia Mathematica", "Disquisitiones Arithmeticae"];
-
 // Change code below this line
-function add(bookName) {
-
-  bookList.push(bookName);
-  return bookList;
-  
+function add(originalBookList, bookName) {
+  let newBookList = [...originalBookList];
+  newBookList.push(bookName);
+  return newBookList;
   // Change code above this line
 }
-
 // Change code below this line
-function remove(bookName) {
-  const book_index = bookList.indexOf(bookName);
+function remove(originalBookList, bookName) {
+  const book_index = originalBookList.indexOf(bookName);
   if (book_index >= 0) {
-
-    bookList.splice(book_index, 1);
-    return bookList;
-
+    let newBookList = [...originalBookList];
+    newBookList.splice(book_index, 1);
+      return newBookList;
     // Change code above this line
     }
 }
+

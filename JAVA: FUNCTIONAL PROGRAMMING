@@ -48,3 +48,12 @@ let ratings = watchList.map(movie => {
     refinedMovieData["rating"] = movie["imdbRating"];
       return refinedMovieData;
 })
+
+Implement map on a Prototype:
+Array.prototype.myMap = function(callback) {
+  const newArray = [];
+  // Only change code below this line
+
+  // Only change code above this line
+  return newArray;
+};

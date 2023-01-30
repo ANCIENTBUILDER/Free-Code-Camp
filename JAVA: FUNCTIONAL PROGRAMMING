@@ -99,12 +99,13 @@ const averageRating = watchList
   watchList.filter(film => film.Director === "Christopher Nolan").length;
 
 Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem:
-const squareList = arr => {
-  // Only change code below this line
-  return arr;
-  // Only change code above this line
-};
-
-const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
-console.log(squaredIntegers);
+let result = [];
+let positiveIntegersSquared = arr.filter(function(num) {
+  if (Number.isInteger(num) && num > 0) {
+    return num;
+  }
+}).map(function(num) {
+  return num * num;
+});
+  return positiveIntegersSquared;
 

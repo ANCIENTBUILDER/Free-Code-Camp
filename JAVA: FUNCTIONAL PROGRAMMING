@@ -78,4 +78,13 @@ Return Part of an Array Using the slice Method:
 let slicedResult = anim.slice(beginSlice, endSlice);
 return slicedResult;
 
+Remove Elements from an Array Using slice Instead of splice:
+function nonMutatingSplice(cities) {
+  // Only change code below this line
+  return cities.splice(3);
 
+  // Only change code above this line
+}
+
+const inputCities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
+nonMutatingSplice(inputCities);

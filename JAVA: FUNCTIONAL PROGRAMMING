@@ -144,3 +144,13 @@ return arr.every(v => { return v > 0; });
 
 Use the some Method to Check that Any Elements in an Array Meet a Criteria:
 return arr.some(v => { return v > 0; });
+
+Introduction to Currying and Partial Application:
+function add(x) {
+  // Only change code below this line
+
+
+  // Only change code above this line
+}
+
+add(10)(20)(30);

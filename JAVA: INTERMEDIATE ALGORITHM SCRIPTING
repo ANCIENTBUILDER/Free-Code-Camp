@@ -1,0 +1,7 @@
+INTERMEDIATE ALGORITHM SCRIPTING
+
+Sum All Numbers in a Range:
+function sumAll(arr) {
+  return 1;
+}
+sumAll([1, 4]);

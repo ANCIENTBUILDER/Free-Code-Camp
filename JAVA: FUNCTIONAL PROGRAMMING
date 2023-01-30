@@ -12,3 +12,13 @@ Understand the Hazards of Using Imperative Code:
   const tabsAfterIndex = this.tabs.slice(index + 1); // Get the tabs after the tab
   this.tabs = tabsBeforeIndex.concat(tabsAfterIndex); // Join them together
 
+Avoid Mutations and Side Effects Using Functional Programming:
+// The global variable
+let fixedValue = 4;
+
+function incrementer() {
+  // Only change code below this line
+
+
+  // Only change code above this line
+}

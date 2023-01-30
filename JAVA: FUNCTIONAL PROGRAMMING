@@ -140,8 +140,14 @@ function urlSlug(title) {
 }
 
 Use the every Method to Check that Every Element in an Array Meets a Criteria:
-let result = arr.every(function(value) {
-  console.log(value);
-  return value > 0;
-});
-  return result;
+return arr.every(v => { return v > 0; });
+
+Use the some Method to Check that Any Elements in an Array Meet a Criteria:
+function checkPositive(arr) {
+  // Only change code below this line
+
+
+  // Only change code above this line
+}
+
+checkPositive([1, 2, 3, -4, 5]);

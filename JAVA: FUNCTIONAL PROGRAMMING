@@ -118,3 +118,13 @@ Return a Sorted Array Without Changing the Original Array:
 return [].concat(arr).sort(function(a, b) {
   return a - b;
 });
+
+Split a String into an Array Using the split Method:
+function splitify(str) {
+  // Only change code below this line
+
+
+  // Only change code above this line
+}
+
+splitify("Hello World,I-am code");

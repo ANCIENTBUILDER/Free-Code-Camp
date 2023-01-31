@@ -295,8 +295,17 @@ function dropElements(arr, func) {
 let result = dropElements([1, 2, 3, 4], function(n) {return n < 3; });
 
 Steamroller:
+    SOLUTION 1
 function steamrollArray(arr) {
   return arr.flat().flat().flat();
 }
 let result = steamrollArray([1, [2], [3, [[[4]]]]]);
 console.log(result);
+
+    SOLUTION 2
+    function steamrollArray(arr) {
+  const flat = [].concat(...arr);
+  return flat.some(Array.isArray) ? steamrollArray(flat) : flat;
+}
+steamrollArray([1, [2], [3, [[4]]]]);
+

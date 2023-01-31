@@ -232,3 +232,9 @@ function sumPrimes(num) {
  }
 let result = sumPrimes(10);
 console.log(result);
+
+Smallest Common Multiple:
+function smallestCommons(arr) {
+  return arr;
+}
+smallestCommons([1,5]);

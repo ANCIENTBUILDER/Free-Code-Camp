@@ -117,6 +117,20 @@ let result = translatePigLatin("rhythm");
 
 Search and Replace:
 function myReplace(str, before, after) {
-  return str;
+  let stringCollection = str.split(" ");
+
+  for (let i = 0; i < stringCollection.length; i += 1) {
+    if (stringCollection[i] === before) {
+      if (stringCollection[i] [0] === stringCollection[i][0].toUpperCase()) {
+        after = after[0].toUpperCase() + after.slice(1);
+      };
+      stringCollection[i] = after;
+    }
+  }
+  return stringCollection.join(" ");
 }
-myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+
+let result = myReplace("I think we should look down there");
+
+console.log(result);
+

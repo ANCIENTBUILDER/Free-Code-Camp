@@ -183,3 +183,9 @@ function convertHTML(str) {
     .join("");
 }
 convertHTML("Dolce & Gabbana");
+
+Sum All Odd Fibonacci Numbers:
+function sumFibs(num) {
+  return num;
+}
+sumFibs(4);

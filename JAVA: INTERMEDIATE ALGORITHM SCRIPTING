@@ -352,3 +352,9 @@ function truthCheck(collection, pre) {
   });
 }
 let finalAnswer = truthCheck([{"single": "double"}, {"single": NaN}], "single");
+
+Arguments Optional:
+function addTogether() {
+  return false;
+}
+addTogether(2,3);

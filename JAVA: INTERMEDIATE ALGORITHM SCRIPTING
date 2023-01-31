@@ -33,6 +33,12 @@ Seek and Destroy:
 function destroyer(arr) {
   let survivingElements = [];
   let battleField = Object.values(arguments)[0];
+  
+  Convert HTML Entities:
+  function convertHTML(str) {
+  return str;
+}
+convertHTML("Dolce & Gabbana");
   let elementsToDestroy = Object.values(arguments).splice(1);
 
   for (let i = 0; i < battleField.length; i += 1) {

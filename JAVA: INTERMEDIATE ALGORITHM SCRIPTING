@@ -341,8 +341,14 @@ function truthCheck(collection, pre) {
   //     result = false;
   //   }
   // }
-  // return result;
-  
+  // return result;  
 }
-
+let finalAnswer = truthCheck([{"single": "double"}, {"single": NaN}], "single");
+  
+    SOLUTION 2
+function truthCheck(collection, pre) {
+  return collection.every(function(dataPoint) {
+    return dataPoint[pre];
+  });
+}
 let finalAnswer = truthCheck([{"single": "double"}, {"single": NaN}], "single");

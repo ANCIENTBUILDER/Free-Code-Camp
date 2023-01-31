@@ -235,6 +235,48 @@ console.log(result);
 
 Smallest Common Multiple:
 function smallestCommons(arr) {
+  let lowerNum, higherNum;
+  if (arr[0] > arr[1]) {
+    lowerNum = arr[1];
+    higherNum = arr[0];    
+  } else {
+    lowerNum = arr[0];
+    higherNum= arr[1];
+  }
+
+  let range = getRange(lowerNum, higherNum);
+  
+  let multiple = 1;
+  while (multiple < 1000000) {
+    let higherCommonMultiple = (lowerNum * multiple) * higherNum;
+    
+    let trueCount = 0;
+    for (let i = 0; i < range.length; i += 1) {
+//console.log(higherCommonMultiple, range);   
+
+      if (higherCommonMultiple % range[i] === 0) {
+        trueCount += 1;
+
+//console.log("true count = ", trueCount, "Range Length = ", range.length);
+        if (trueCount === range.length) {
+          return higherCommonMultiple;
+        }
+      }
+    }
+
+    multiple += 1; 
+  }
+
   return arr;
 }
-smallestCommons([1,5]);
+
+function getRange(lowN, highN) {
+  let resultRange = [];
+  for (let i = lowN; i <= highN; i += 1) {
+    resultRange.push(i);
+  }
+  return resultRange;
+}
+
+let result = smallestCommons([1,5]);
+console.log(result);

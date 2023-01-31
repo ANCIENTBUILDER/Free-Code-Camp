@@ -98,3 +98,9 @@ function spinalCase(str) {
   .join("-");
 }
 spinalCase('This Is Spinal Tap');
+
+Pig Latin:
+function translatePigLatin(str) {
+  return str;
+}
+translatePigLatin("consonant");

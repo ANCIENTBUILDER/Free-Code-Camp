@@ -44,3 +44,10 @@ function destroyer(arr) {
   return survivingElements;
 }
 let result = destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+
+Wherefore art thou:
+function whatIsInAName(collection, source) {
+
+}
+
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });

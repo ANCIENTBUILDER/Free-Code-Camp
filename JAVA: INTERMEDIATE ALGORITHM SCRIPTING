@@ -322,7 +322,27 @@ let result = binaryAgent(binaryData);
 console.log(result);
 
 Everything Be True:
+    SOLUTION 1
 function truthCheck(collection, pre) {
-  return pre;
+  return collection.every(function(dataPoint) {
+    return dataPoint[pre];
+  });
+
+  // let result = true;
+  // for (let i = 0; i < collection.length; i += 1) {
+  //   console.log(collection[i][pre]);
+  //   if (
+  //     Number.isNaN(collection[i][pre]) ||
+  //     collection[i][pre] === undefined ||
+  //     collection[i][pre] === null ||
+  //     collection[i][pre] === 0 ||
+  //     collection[i][pre] === ""  
+  //   ) {
+  //     result = false;
+  //   }
+  // }
+  // return result;
+  
 }
-truthCheck([{name: "Quincy", role: "Founder", isBot: false}, {name: "Naomi", role: "", isBot: false}, {name: "Camperbot", role: "Bot", isBot: true}], "isBot");
+
+let finalAnswer = truthCheck([{"single": "double"}, {"single": NaN}], "single");

@@ -65,8 +65,36 @@ function whatIsInAName(collections, source) {
 whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 
 Spinal Tap Case:
+    FIRST SOLUTION
 function spinalCase(str) {
-  return str;
+  let camelCaseHandled = str.replace(/([a-z])([A_Z])/g, "$1 $2");
+  let spacesAndDashedHandled = camelCaseHandled.replace(/\s|_/g, "-");
+  return spacesAndDashedHandled.toLowerCase();
 }
+let result = spinalCase('thisIsSpinalTap');
+console.log(result);
 
+    SECOND SOLUTION
+function spinalCase(str) {
+  return str.replace(/\s|_/g, "-").replace(/([a-z])([A_Z])/g, "$1-$2").toLowerCase();
+}
+console.log(spinalCase('This Is Spinal Tap'));
+
+    THIRD SOLUTION
+function spinalCase(str) {
+  return str
+    .split(/\s|_|(?=[A_Z])/)
+    .join("-")
+    .toLowerCase();
+}
+spinalCase('This Is Spinal Tap');
+
+    FOURTH SOLUTION 
+function spinalCase(str) {
+  str = str.replace(/([a-z])([A-Z])/g, "$1 $2");
+  return str
+  .toLowerCase()
+  .split(/(?:_| )+/)
+  .join("-");
+}
 spinalCase('This Is Spinal Tap');

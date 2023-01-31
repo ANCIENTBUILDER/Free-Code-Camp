@@ -64,3 +64,9 @@ function convertToRoman(num) {
   return romanNumeral;
 }
 console.log(convertToRoman(3999));
+
+CAESARS CIPHER:
+function rot13(str) {
+  return str;
+}
+rot13("SERR PBQR PNZC");

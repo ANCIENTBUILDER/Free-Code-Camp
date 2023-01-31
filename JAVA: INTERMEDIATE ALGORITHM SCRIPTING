@@ -204,3 +204,9 @@ function sumFibs(num) {
 }
 let result = sumFibs(4);
 console.log(result);
+
+Sum All Primes:
+function sumPrimes(num) {
+  return num;
+}
+sumPrimes(10);

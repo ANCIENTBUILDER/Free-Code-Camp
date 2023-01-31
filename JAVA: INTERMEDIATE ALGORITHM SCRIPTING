@@ -280,3 +280,10 @@ function getRange(lowN, highN) {
 
 let result = smallestCommons([1,5]);
 console.log(result);
+
+Drop it:
+function dropElements(arr, func) {
+  return arr;
+}
+
+dropElements([1, 2, 3], function(n) {return n < 3; });

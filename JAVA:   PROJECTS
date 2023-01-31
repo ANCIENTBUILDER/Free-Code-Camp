@@ -87,6 +87,7 @@ function rot13(str) {
 let result = rot13("SERR PBQR PNZC");
 
 TELEPHONE NUMBER VALIDATOR:
+    SOLUTION 1 - not working
 function telephoneCheck(str) {
   if (str.indexOf("(") === -1 && str.indexOf(")") > -1) return false;
   if (str.indexOf(")") - str.indexOf("(") >= 5) return false;
@@ -109,3 +110,10 @@ function telephoneCheck(str) {
 
 let result = telephoneCheck("1 (555) 555-5555");
 console.log(result);
+
+    SOLUTION 2 - passes
+function telephoneCheck(str) {
+  let regex = /^([1]\s?)?(\([0-9]{3}\)|[0-9]{3})(\s|-)?[0-9]{3}(\s|-)?[0-9]{4}$/g;
+  return regex.test(str);  
+}
+telephoneCheck("555-555-5555");

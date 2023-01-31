@@ -186,6 +186,21 @@ convertHTML("Dolce & Gabbana");
 
 Sum All Odd Fibonacci Numbers:
 function sumFibs(num) {
-  return num;
+  let fibbonacciSequence = [0, 1];
+  let counter = fibbonacciSequence[fibbonacciSequence.length - 2] +
+                fibbonacciSequence[fibbonacciSequence.length - 1]
+  while (counter <= num) {
+    fibbonacciSequence.push(counter);
+    counter = fibbonacciSequence[fibbonacciSequence.length - 2] +
+              fibbonacciSequence[fibbonacciSequence.length - 1]
+  }
+  let sumOfOddFibbonacciNumbers = 0;
+  fibbonacciSequence.forEach(function(num) {
+    if (num % 2 !=0) {
+      sumOfOddFibbonacciNumbers += num;
+    }
+  });
+  return sumOfOddFibbonacciNumbers;
 }
-sumFibs(4);
+let result = sumFibs(4);
+console.log(result);

@@ -63,3 +63,10 @@ function whatIsInAName(collections, source) {
   return arr;
 }
 whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+
+Spinal Tap Case:
+function spinalCase(str) {
+  return str;
+}
+
+spinalCase('This Is Spinal Tap');

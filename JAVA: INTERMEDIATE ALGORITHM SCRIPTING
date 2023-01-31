@@ -293,3 +293,9 @@ function dropElements(arr, func) {
   return result;
 }
 let result = dropElements([1, 2, 3, 4], function(n) {return n < 3; });
+
+Steamroller:
+function steamrollArray(arr) {
+  return arr;
+}
+steamrollArray([1, [2], [3, [[4]]]]);

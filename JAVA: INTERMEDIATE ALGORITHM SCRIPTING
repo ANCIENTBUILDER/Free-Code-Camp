@@ -28,3 +28,9 @@ function diffArray(arr1, arr2) {
   return newArr;
 }
 console.log(diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]));
+
+Seek and Destroy:
+function destroyer(arr) {
+  return arr;
+}
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);

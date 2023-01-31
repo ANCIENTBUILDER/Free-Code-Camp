@@ -296,6 +296,7 @@ let result = dropElements([1, 2, 3, 4], function(n) {return n < 3; });
 
 Steamroller:
 function steamrollArray(arr) {
-  return arr;
+  return arr.flat().flat().flat();
 }
-steamrollArray([1, [2], [3, [[4]]]]);
+let result = steamrollArray([1, [2], [3, [[[4]]]]]);
+console.log(result);

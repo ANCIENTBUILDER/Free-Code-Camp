@@ -46,8 +46,20 @@ function destroyer(arr) {
 let result = destroyer([1, 2, 3, 1, 2, 3], 2, 3);
 
 Wherefore art thou:
-function whatIsInAName(collection, source) {
-
+function whatIsInAName(collections, source) {
+  var arr = [];
+  collections.forEach(collection => {
+    let index = 0;
+    for (let key in source) {
+      console.log(key, collection, source)
+      if (collection[key] === source[key]) {
+        index += 1;
+      }
+      if (index === Object.keys(source).length) {
+        arr.push(collection);
+      }
+    }
+  });
+  return arr;
 }
-
 whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });

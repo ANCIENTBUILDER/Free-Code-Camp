@@ -152,3 +152,5 @@ function pairElement(str) {
   return pairs;
 }
 pairElement("GCG");
+
+Missing letters:

@@ -12,3 +12,9 @@ function palindrome(str) {
 }
 let result = palindrome("eye");
 
+ROMAN NUMERAL CONVERTER:
+function convertToRoman(num) {
+ return num;
+}
+
+convertToRoman(36);

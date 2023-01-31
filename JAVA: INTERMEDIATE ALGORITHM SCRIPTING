@@ -396,3 +396,12 @@ const Person = function(firstAndLast) {
 
 const bob = new Person("Bob Ross");
 console.log(bob.getFullName());
+
+Map the Debris:
+function orbitalPeriod(arr) {
+  const GM = 398600.4418;
+  const earthRadius = 6367.4447;
+  return arr;
+}
+
+orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);

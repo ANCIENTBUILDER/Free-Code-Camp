@@ -118,7 +118,6 @@ let result = translatePigLatin("rhythm");
 Search and Replace:
 function myReplace(str, before, after) {
   let stringCollection = str.split(" ");
-
   for (let i = 0; i < stringCollection.length; i += 1) {
     if (stringCollection[i] === before) {
       if (stringCollection[i] [0] === stringCollection[i][0].toUpperCase()) {
@@ -129,8 +128,5 @@ function myReplace(str, before, after) {
   }
   return stringCollection.join(" ");
 }
-
-let result = myReplace("I think we should look down there");
-
+let result = myReplace("I think we should look up there", "up", "Down");
 console.log(result);
-

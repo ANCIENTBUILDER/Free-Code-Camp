@@ -5,7 +5,7 @@ Store Data with Sass Variables:
   $text-color: red;
 
   .header{
-    text-align: $textcolor;
+    text-align: center;
   }
   .blog-post, h2 {
     color: $text-color;
@@ -24,4 +24,23 @@ Store Data with Sass Variables:
 <div class="blog-post">
   <h2>Here is another header</h2>
   <p>Even more random text within a paragraph</p>
+</div>
+
+Nest CSS with Sass:
+<style type='text/scss'>
+  .blog-post {
+
+  }
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  p {
+    font-size: 20px;
+  }
+</style>
+
+<div class="blog-post">
+  <h1>Blog Title</h1>
+  <p>This is a paragraph</p>
 </div>

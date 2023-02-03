@@ -138,3 +138,5 @@ $x: 1;
 
 Split Your Styles into Smaller Chunks with Partials:
 <!-- The main.scss file -->
+@import 'variables'
+

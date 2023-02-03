@@ -135,3 +135,6 @@ $x: 1;
 <p class="text-3">Hello</p>
 <p class="text-4">Hello</p>
 <p class="text-5">Hello</p>
+
+Split Your Styles into Smaller Chunks with Partials:
+<!-- The main.scss file -->

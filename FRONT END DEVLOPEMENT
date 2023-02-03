@@ -107,6 +107,9 @@ Use @if and @else to Add Logic To Your Styles:
 
 Use @for to Create a Sass Loop:
 <style type='text/scss'>
+@for $j from 1 to 6 {
+.text-#{$j} {font-size: 15px * $j}
+}
 </style>
 <p class="text-1">Hello</p>
 <p class="text-2">Hello</p>

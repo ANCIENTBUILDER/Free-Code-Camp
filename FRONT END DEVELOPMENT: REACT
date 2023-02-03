@@ -62,3 +62,8 @@ const JSX = (
   </div>
 ); 
 
+Create a Stateless Functional Component:
+const MyComponent = function() {
+  // Change code below this line
+  // Change code above this line
+}

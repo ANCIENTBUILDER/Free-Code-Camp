@@ -150,6 +150,10 @@ Extend One Set of CSS Styles to Another Element:
     border: 1px solid black;
     margin: 0 auto;
   }
+.info-important {
+  @extend .info;
+  background-color: magenta;
+}
 </style>
 <h3>Posts</h3>
 <div class="info-important">

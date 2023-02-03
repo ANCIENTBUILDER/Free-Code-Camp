@@ -107,12 +107,15 @@ Use @if and @else to Add Logic To Your Styles:
 
 Use @for to Create a Sass Loop:
 <style type='text/scss'>
-@for $j from 1 to 6 {
-.text-#{$j} {font-size: 15px * $j}
-}
+$colors: (one: blue, two: black, three: red);
+  @each $value, $color in $colors {
+    .#{$color}-bg {background-color: $color}
+  }
+  div {
+    height: 200px;
+    width: 200px;
+  }
 </style>
-<p class="text-1">Hello</p>
-<p class="text-2">Hello</p>
-<p class="text-3">Hello</p>
-<p class="text-4">Hello</p>
-<p class="text-5">Hello</p>
+<div class="blue-bg"></div>
+<div class="black-bg"></div>
+<div class="red-bg"></div>

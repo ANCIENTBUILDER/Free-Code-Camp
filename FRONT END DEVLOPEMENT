@@ -61,3 +61,18 @@ Nest CSS with Sass:
   <h1>Blog Title</h1>
   <p>This is a paragraph</p>
 </div>
+
+Create Reusable CSS with Mixins:
+<style type='text/scss'>
+
+
+
+  #awesome {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+  }
+</style>
+
+<div id="awesome"></div>

@@ -79,3 +79,18 @@ Create Reusable CSS with Mixins:
   }
 </style>
 <div id="awesome"></div>
+
+Use @if and @else to Add Logic To Your Styles:
+<style type='text/scss'>
+
+
+
+  #box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    @include border-stroke(medium);
+  }
+</style>
+
+<div id="box"></div>

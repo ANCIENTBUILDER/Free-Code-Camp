@@ -1246,3 +1246,5 @@ class App extends React.Component {
 // Change code below this line
 
 ReactDOMServer.renderToString(<App />)
+
+FRONT END DEVELOPMENT:   React COMPLETED

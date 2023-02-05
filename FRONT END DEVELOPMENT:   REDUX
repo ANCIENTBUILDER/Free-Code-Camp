@@ -40,5 +40,5 @@ const loginAction = () => {
     type: 'LOGIN'
   }
 };
-
 // Dispatch the action here:
+store.dispatch(loginAction());

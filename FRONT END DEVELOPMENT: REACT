@@ -1216,8 +1216,14 @@ class MyComponent extends React.Component {
     };
   }
   render() {
-    const usersOnline = null; // Change this line
-    const renderOnline = null; // Change this line
+    const usersOnline = this.state.users.filter(function(user) {
+      if (user.online) {
+        return user;
+      }
+    });
+    const renderOnline = usersOnline.map(function(ele) {
+      return <li key={ele.username}>{ele.username}</li>
+    });
     return (
       <div>
         <h1>Current Online Users:</h1>

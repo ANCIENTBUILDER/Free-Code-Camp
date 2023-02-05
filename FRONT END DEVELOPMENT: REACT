@@ -1168,9 +1168,10 @@ const frontEndFrameworks = [
   'Backbone',
   'Vue'
 ];
-
 function Frameworks() {
-  const renderFrameworks = null; // Change this line
+  const renderFrameworks = frontEndFrameworks.map(function(ele) {
+    return <li key={ele}>{ele}</li>
+  });
   return (
     <div>
       <h1>Popular Front End JavaScript Frameworks</h1>

@@ -736,10 +736,11 @@ class MyComponent extends React.Component {
   }
   componentWillMount() {
     // Change code below this line
-
+console.log("ancient builder")
     // Change code above this line
   }
   render() {
     return <div />
   }
 };
+

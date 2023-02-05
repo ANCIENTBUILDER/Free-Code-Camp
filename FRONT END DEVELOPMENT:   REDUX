@@ -158,6 +158,10 @@ const store = Redux.createStore(reducer);
 let count = 0;
 
 // Change code below this line
+store.subscribe(function() {
+  console.log("Ancient Builder");
+  count += 1;
+});
 
 // Change code above this line
 

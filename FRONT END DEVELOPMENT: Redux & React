@@ -59,3 +59,6 @@ submitMessage() {
     );
   }
 };
+
+Extract State Logic to Redux:
+// Define ADD, addMessage(), messageReducer(), and store here:

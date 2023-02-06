@@ -420,3 +420,5 @@ const wakeUp = () => {
 };
 
 const store = Redux.createStore(immutableReducer);
+
+FRONT END DEVELOPMENT   REDUX COMPLETED

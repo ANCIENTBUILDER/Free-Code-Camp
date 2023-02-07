@@ -1,4 +1,53 @@
-FRONT END DEVELOPMENT LIBRARIES
-
-BUILD A RANDOM QUOTE MACHINE
-
+<html>
+  <head>
+    <script>
+      const QUOTEBANK = [
+        {
+          quote: "The easest day was yesterday",
+          author: "JFK"
+        }, {
+          quote: "You want me to put the hammer down",
+          author: "Thor"
+        }, {
+          quote: "There exists in the world today, a hidden hand",
+          author: "JFK"
+        }, {
+          quote: "Time is but a number",
+          author: "Einstein"
+        }, {
+        quote: "Get to the choppa now",
+          author: "Arnold"
+        } 
+      ]
+      window.onload = init;
+      function init() {
+        generateQuote()
+      }
+       
+      function gerateQuote() {
+        let quoteSize = QUOTEBANK.length;
+        let randomIndex = Math.floor(Math.random() * quoteSize);
+        let randomQuoteData = QUOTEBANK[randomIndex];
+        
+        document.getElementById("text").innerText = randomQuoteData.quote;
+        document.getElementById("author").innerText = randomQuoteData.author;
+      }
+       
+    </script>
+    
+    <style>
+      * {
+      font-size: 2rem;
+    </style>
+    
+  </head>
+  
+  <body>
+    <wrapper id="quote-box">
+      <div id="text"></div>
+      <div id="author"></div>
+      <button id="new-quote" onClick="generateQuote();">New Quote</button>
+      <a href="#" id="tweet-quote">Tweet Quote</a>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

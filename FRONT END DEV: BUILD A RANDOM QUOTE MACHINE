@@ -9,10 +9,10 @@
           quote: "You want me to put the hammer down",
           author: "Thor"
         }, {
-          quote: "There exists in the world today, a hidden hand",
+          quote: "Pray not for easier days, pray to become stronger men",
           author: "JFK"
         }, {
-          quote: "Time is but a number",
+          quote: "I am a freemason",
           author: "Einstein"
         }, {
         quote: "Get to the choppa now",
@@ -24,19 +24,19 @@
         generateQuote()
       }
        
-      function gerateQuote() {
+      function generateQuote() {
         let quoteSize = QUOTEBANK.length;
         let randomIndex = Math.floor(Math.random() * quoteSize);
         let randomQuoteData = QUOTEBANK[randomIndex];
         
-        let twitterLink = "";
+        let twitterLink = "https://twitter.com/intent/tweet?hashtags=quotes&amp;related=freecodecamp&amp;text=%22"; 
         
 // Add the Quote
         let quoteInApiFormat = randomQuoteData.quote.replace(/ /g, "%20");
-        twitterLink += quoteInApiFormat ""
+        twitterLink += quoteInApiFormat
 // Add the Author
         let authorInApiFormat = randomQuoteData.author.replace(/ /g, "%20");
-        twitterLink += "Napoleaon%20Hill"
+        twitterLink += authorInApiFormat
         
         document.getElementById("tweet-quote").href = twitterLink;
         document.getElementById("text").innerText = randomQuoteData.quote;
@@ -57,7 +57,7 @@
       <div id="text"></div>
       <div id="author"></div>
       <button id="new-quote" onClick="generateQuote();">New Quote</button>
-      <a href="#" id="tweet-quote">Tweet Quote</a>
+      <a href="#" id="tweet-quote" target="_blank">Tweet Quote</a>
       <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>

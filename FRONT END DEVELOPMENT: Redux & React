@@ -189,3 +189,11 @@ const addMessage = (message) => {
 };
 
 // Change code below this line
+
+let mapDispatchToProps = (dispatch) => {
+  return {
+    submitNewMessage: (message) => {
+      dispatch(addMessage(message));
+    }
+  }
+}

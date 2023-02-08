@@ -20,9 +20,8 @@ Select a Group of Elements with D3 -------------------------
   </ul>
   <script>
     // Add your code below this line
-
-
-
+d3.selectAll("li")
+  .text("list item")
     // Add your code above this line
   </script>
 </body>

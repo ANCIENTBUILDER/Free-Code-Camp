@@ -55,7 +55,9 @@ Work with Dynamic Data in D3 -----------------------------
       .append("h2")
       // Add your code below this line
 
-      .text("New Title");
+      .text(function(datapoint) {
+        return datapoint + " USD";
+      });
 
       // Add your code above this line
   </script>

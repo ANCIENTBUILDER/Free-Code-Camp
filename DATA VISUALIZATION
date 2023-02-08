@@ -132,7 +132,7 @@ Add Classes with D3 -----------------------------------
       .append("div")
       // Add your code below this line
 
-
+.attr("class", "bar");
 
       // Add your code above this line
   </script>

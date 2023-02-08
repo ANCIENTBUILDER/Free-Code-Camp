@@ -63,7 +63,10 @@ Work with Dynamic Data in D3 -----------------------------
   </script>
 </body>
 
-Add Inline Styling to Elements:
+REFACTOR 1: .text((datapoint) => datapoint + " USD";
+REFACTOR 2: .text(datapoint => `${datapoint} USD`);    
+
+Add Inline Styling to Elements --------------------------
 <body>
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
@@ -75,7 +78,7 @@ Add Inline Styling to Elements:
       .text((d) => (d + " USD"))
       // Add your code below this line
 
-
+.style("font-family", "verdana")
 
       // Add your code above this line
   </script>

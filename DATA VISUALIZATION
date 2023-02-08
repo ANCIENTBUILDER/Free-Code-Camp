@@ -10,3 +10,19 @@ d3.select("body")
     // Add your code above this line
   </script>
 </body>
+
+Select a Group of Elements with D3 -------------------------
+<body>
+  <ul>
+    <li>Example</li>
+    <li>Example</li>
+    <li>Example</li>
+  </ul>
+  <script>
+    // Add your code below this line
+
+
+
+    // Add your code above this line
+  </script>
+</body>

@@ -25,3 +25,16 @@ d3.selectAll("li")
     // Add your code above this line
   </script>
 </body>
+
+Work with Data in D3 --------------------------------------
+<body>
+  <script>
+    const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+
+    // Add your code below this line
+
+
+
+    // Add your code above this line
+  </script>
+</body>

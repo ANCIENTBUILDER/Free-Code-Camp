@@ -1,21 +1,27 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>RANDOM QUOTE MACHINE</title>
     <script>
       const QUOTEBANK = [
         {
           quote: "The easest day was yesterday",
           author: "JFK"
         }, {
-          quote: "You want me to put the hammer down",
+          quote: "YOU WANT ME TO PUT THE HAMMA DOWN?!!!",
           author: "Thor"
         }, {
           quote: "Pray not for easier days, pray to become stronger men",
           author: "JFK"
         }, {
-          quote: "I am a freemason",
+          quote: "I am a freemason who said some crazy S(-)17./",
           author: "Einstein"
         }, {
-        quote: "Get to the choppa now",
+          quote: "GO...GO...GET TO THE CHOPPA NOW...and stop the war in Ukraine!",
           author: "Arnold"
         } 
       ]
@@ -43,21 +49,36 @@
         document.getElementById("author").innerText = randomQuoteData.author;
       }
        
-    </script>
-    
-    <style>
-      * {
-      font-size: 2rem;
-    </style>
-    
+    </script>        
   </head>
   
   <body>
-    <wrapper id="quote-box">
-      <div id="text"></div>
-      <div id="author"></div>
-      <button id="new-quote" onClick="generateQuote();">New Quote</button>
-      <a href="#" id="tweet-quote" target="_blank">Tweet Quote</a>
-      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-8 offset-md-2">
+          <wrapper id="quote-box">
+            <div class="card">
+              <h5 class="card-header text-center">Test of Mettle Random Quote Machine</h5>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <div id="text"></div>
+                  </h5>
+                  <p class="card-text">
+                    <div id="author"></div>
+                  </p>                 
+               <button id="new-quote" onClick="generateQuote();" class="btn btn-block btn btn-success">New Quote</button>
+               <a href="#" id="tweet-quote" target="_blank" class="btn btn-block btn btn-primary">Tweet Quote</a>
+            </div>
+          </div>
+        </wrapper>
+        </div>
+      </div>     
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
+
+COMPLETED - ALL TESTS PASSED

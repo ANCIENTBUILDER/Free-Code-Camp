@@ -151,15 +151,17 @@ Update the Height of an Element Dynamically -------------------------------
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("div")
+    d3.select("body")
+      .selectAll("div")
       .data(dataset)
       .enter()
       .append("div")
       .attr("class", "bar")
       // Add your code below this line
 
-
-
+      .style("height", (dataPoint) => {
+        return `${dataPoint}px`;
+});
       // Add your code above this line
   </script>
 </body>

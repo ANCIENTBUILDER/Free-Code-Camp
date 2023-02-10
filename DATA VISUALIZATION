@@ -607,7 +607,7 @@ Add a Tooltip to a D3 Element -----------------------------------------
   return d;
 });
 
-       // Add your code above this line
+       // Add your code above this line - E6 solution      .text((d) => d );     
 
     svg.selectAll("text")
        .data(dataset)
@@ -648,7 +648,9 @@ Create a Scatterplot with SVG Circles --------------------------------------
     svg.selectAll("circle")
        // Add your code below this line
 
-
+       .data(dataset)
+       .enter()
+       .append("circle")
 
        // Add your code above this line
 

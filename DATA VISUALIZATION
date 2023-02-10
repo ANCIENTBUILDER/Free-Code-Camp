@@ -409,7 +409,7 @@ Change the Color of an SVG Element ---------------------------------------------
        .attr("height", (d, i) => 3 * d)
        // Add your code below this line
 
-
+.attr("fill", "navy");
 
        // Add your code above this line
   </script>

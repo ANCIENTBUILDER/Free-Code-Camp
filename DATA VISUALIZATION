@@ -256,7 +256,9 @@ Create a Bar for Each Data Point in the Set ------------------------------------
     svg.selectAll("rect")
        // Add your code below this line
 
-
+.data(dataset)
+.enter()
+.append("rect")
 
        // Add your code above this line
        .attr("x", 0)

@@ -557,7 +557,7 @@ Add a Hover Effect to a D3 Element ---------------------------------------------
        .attr("fill", "navy")
        // Add your code below this line
 
-
+.attr("class", "bar")
 
        // Add your code above this line
 

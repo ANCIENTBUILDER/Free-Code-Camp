@@ -485,7 +485,7 @@ Add Labels to D3 Elements -------------------------------------------
         return d;
       });
 
-       // Add your code above this line
+       // Add your code above this line     .text((d, i) => d);
   </script>
 <body>
 
@@ -521,7 +521,8 @@ Style D3 Labels -----------------------------------
        .attr("y", (d, i) => h - (3 * d) - 3)
        // Add your code below this line
 
-
+      .style("font-size", "25px")
+      .style("fill", "red")
 
        // Add your code above this line
   </script>

@@ -377,7 +377,7 @@ Invert SVG Elements -----------------------------------------------
        .attr("y", (d, i) => {
          // Add your code below this line
 
-
+return h - d * 3;
 
          // Add your code above this line
        })

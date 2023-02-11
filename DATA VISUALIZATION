@@ -688,7 +688,13 @@ Add Attributes to the Circle Elements -----------------------------------------
        .append("circle")
        // Add your code below this line
 
-
+      .attr("cx", (item) => {
+         return item[0];
+       })
+       .attr("cy", (item) => {
+         return h - item[1];
+       })
+       .attr("r", 5)     
 
        // Add your code above this line
 

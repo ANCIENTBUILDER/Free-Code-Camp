@@ -753,18 +753,4 @@ Add Labels to Scatter Plot Circles ---------------------------------------------
 </body>
 
 Create a Linear Scale with D3 ------------------------------------------------
-<body>
-  <script>
-    // Add your code below this line
-
-    const scale = undefined; // Create the scale here
-    const output = scale(); // Call scale with an argument here
-
-    // Add your code above this line
-
-    d3.select("body")
-      .append("h2")
-      .text(output);
-
-  </script>
-</body>
+Set a Domain and a Range on a Scale

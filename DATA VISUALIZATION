@@ -890,7 +890,9 @@ Use a Pre-Defined Scale to Place Elements --------------------------------------
        .append("circle")
        // Add your code below this line
 
-
+       .attr("cx", (d) => xScale(d[0]))
+       .attr("cy", (d) => yScale(d[1]))
+       .attr("r", 5)
 
        // Add your code above this line
 
@@ -902,7 +904,8 @@ Use a Pre-Defined Scale to Place Elements --------------------------------------
  + d[1]))
        // Add your code below this line
 
-
+       .attr("x", (d) => xScale(d[0] + 10))
+       .attr("y", (d) => yScale(d[1]))       
 
        // Add your code above this line
   </script>

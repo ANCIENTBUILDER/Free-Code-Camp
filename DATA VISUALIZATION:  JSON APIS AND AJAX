@@ -102,6 +102,13 @@ Get JSON with the JavaScript XMLHttpRequest Method -----------------------------
     document.getElementById('getMessage').onclick = function(){
       // Add your code below this line
 
+    const apiRequest = new XMLHttpRequest();
+    apiRequest.open("GET", "/json/cats.json", true);
+    apiRequest.send();
+    apiRequest.onload = function() {
+      const responseData = JSON.parse(apiRequest.responseText);
+      document.getElementsByClassName("message")[0].innerHTML = JSON.stringify(responseData);
+    }
 
       // Add your code above this line
     };

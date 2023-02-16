@@ -271,7 +271,10 @@ Convert JSON Data to HTML ------------------------------------------------------
         const json = JSON.parse(req.responseText);
         let html = "";
         // Add your code below this line
-
+ 
+      json.forEach(function(cat) {
+        html += "<strong>" + Object.keys(cat).toString() + "</strong>"
+      });
 
         // Add your code above this line
         document.getElementsByClassName('message')[0].innerHTML = html;

@@ -397,6 +397,9 @@ Pre-filter JSON to Get the Data You Need ---------------------------------------
         let html = "";
         // Add your code below this line
 
+      json = json.filter(function(val) {
+        return (val.id !== 1);
+      });
 
         // Add your code above this line
          json.forEach(function(val) {

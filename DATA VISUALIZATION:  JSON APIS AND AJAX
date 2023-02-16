@@ -451,3 +451,16 @@ Pre-filter JSON to Get the Data You Need ---------------------------------------
     Get Message
   </button>
 </p>
+
+Get Geolocation Data to Find A User's GPS Coordinates ---------------------------------------------------------
+<script>
+  // Add your code below this line
+
+
+
+  // Add your code above this line
+</script>
+<h4>You are here:</h4>
+<div id="data">
+
+</div>

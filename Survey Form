@@ -6,35 +6,35 @@
     <meta charset="URF-8">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body><br></br>
     <h1 id="title">TEST YOUR METTLE</h1>
     <p id="description">Thank you for taking the time to help us improve the platform!</p>
     <form action="" id="survey-form">
-      <div class="form-div">
-        <label>Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <div class="form-div"><br>
+        <label id="name-label">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br></br>
       </div>
       <div class="form-div">
-        <label>Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label id="email-label">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br></br>
       </div>
       <div class="form-div">
-        <label id="number">Age (optional)</label>
-        <input type="number" min="1" max="120" id="age" name="age" placeholder="Age">
+        <label id="number-label">Number:</label>
+        <input type="number" name="number" id="number" min="1" max="120" placeholder="Age"><br></br>
       </div>
       <div class="form-div">
-        <label id="dropdown-label">Which option best describes your current role?</label>
-        <select id="dropdown-role" name="dropdown">
+        <label id="dropdown">Which option best describes your current role?</label>
+        <select id="dropdown" name="Occupation">
           <option value="">Select current role</option>
           <option value="1">Student</option>
           <option value="2">Full Time Job</option>
           <option value="3">Full Time Learner</option>
           <option value="4">Prefer not to say</option>
           <option value="5">Other</option>
-        </select>
+        </select><br></br>
       </div>
       <div class="form-div">
-        <label id="label-radio">Do you want Test of Mettle Host Site near you?</label>
+        <label id="label-radio">Do you want Test of Mettle Host Site near you?</label><br>
       </div>
         <div class="form-div">
           <lable id="definitely"><input type="radio" value="definitely" name="recommend"> Definitely</label>
@@ -50,11 +50,12 @@
       </div>
         <div class="form-div">
           <lable id="definitely"><input type="radio" value="Not Sure" name="recommend"> Not Sure</label>
-        </div>
+        </div><br>
       <div class="form-div">
         </div>
-        <label id="dropdown-label">What is your favorite Test of Mettle experience?</label>
-        <select id="dropdown-role" name="dropdown">
+        <div>
+        <label id="dropdown">What is your favorite Test of Mettle experience?</label>
+        <select id="dropdown" name="Activity">
           <option value="">Select an option</option>
           <option value="1">Mountain Biking</option>
           <option value="2">Jogging</option>
@@ -63,49 +64,50 @@
           <option value="5">Other</option>
         </select>
       </div>
-      <div class="form-div">
-        <label id="label-checkbox">What would you like to see improved? (Check all that apply)</label>
+      <div class="form-div"><br>
+        <label id="label-checkbox">What activities do you enjoy? (Check all that apply)</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="1"><label>Black Rabbit</label>
+        <input type="checkbox" name="improvement" value="1"><label>Mountain Biking</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="2"><label>Chameleon</label>
+        <input type="checkbox" name="improvement" value="2"><label>Jogging</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="3"><label>Hell on Wheels</label>
+        <input type="checkbox" name="improvement" value="3"><label>Working Out</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="4"><label>Redemption</label>
+        <input type="checkbox" name="improvement" value="4"><label>Shopping</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="5"><label>Milestone</label>
+        <input type="checkbox" name="improvement" value="5"><label>Traveling</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="6"><label>Spy vs Spy</label>
+        <input type="checkbox" name="improvement" value="6"><label>Coding</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="7"><label>War Games</label>
+        <input type="checkbox" name="improvement" value="7"><label>Content Creation</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="8"><label>Stargazer</label>
+        <input type="checkbox" name="improvement" value="8"><label>Science</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="9"><label>Off-world</label>
+        <input type="checkbox" name="improvement" value="9"><label>Yoga</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="10"><label>The Deep End</label>
+        <input type="checkbox" name="improvement" value="10"><label>Nutrition</label>
       </div>
       <div class="div-checkbox">
-        <input type="checkbox" name="improvement" value="11"><label>Additional Projects</label>
+        <input type="checkbox" name="improvement" value="11"><label>Technology</label>
       </div>
       <br/>
       <div class="form-div">
-        <label id="label-textarea">Comments or suggestions?</label>
+        <label id="label-textarea">Activity suggestions & comments?</label>
         <textarea name="suggestion" placeholder="Enter your comment here..."></textarea>
       </div>
-      <div class="form-div"><input type="submit" value="Submit">
-      </div>  
+      <div class="form-div">
+      </div>
+      <input type="submit" id="submit"><br></br><br></br>  
     </form>
   </body>
 </html>

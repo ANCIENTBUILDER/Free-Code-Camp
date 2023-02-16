@@ -334,6 +334,11 @@ Render Images from Data Sources ------------------------------------------------
           html += "<div class = 'cat'>";
           // Add your code below this line
 
+html += "<img src= '" +
+        val.imageLink +
+        "' alt='" +
+        val.altText +
+        "'></a>";
 
           // Add your code above this line
           html += "</div><br>";
@@ -379,3 +384,4 @@ Render Images from Data Sources ------------------------------------------------
     Get Message
   </button>
 </p>
+

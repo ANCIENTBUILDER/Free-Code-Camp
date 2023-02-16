@@ -216,7 +216,7 @@ Access the JSON Data from an API -----------------------------------------------
         const json = JSON.parse(req.responseText);
         document.getElementsByClassName('message')[0].innerHTML = JSON.stringify(json);
         // Add your code below this line
-
+console.log(json[2].codeNames[1])
         // Add your code above this line
       };
     };
@@ -259,3 +259,4 @@ Access the JSON Data from an API -----------------------------------------------
     Get Message
   </button>
 </p>
+

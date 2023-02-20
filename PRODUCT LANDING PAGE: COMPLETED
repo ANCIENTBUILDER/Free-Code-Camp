@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>TEST OF METTLE PRE-SALE</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://kit.fontawesome.com/5a7bc7b8ae.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" alt="logo" src="https://github.com/ANCIENTBUILDER/TEST-OF-METTLE/blob/main/ATOM_Clear_Blue.png?raw=true" />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">WHAT</a></li>
+          <li><a class="nav-link" href="#howitworks">WHY</a></li>
+          <li><a class="nav-link" href="#pricing">HOW MUCH</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <h2>TEST YOUR METTLE</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" placeholder="Enter your email address" name="email" required/>
+        <input type="submit" id="submit" value="GET STARTED" />
+      </form>
+    </section>
+    <div class="container">
+      <div id="features">
+        <div class="grid">
+          <div class="icon">
+            <i class="fa-solid fa-play-circle"></i>
+          </div>
+          <div class="text">
+            <h2>Founder Membership</h2>
+            <p>Founder Membership options include virtual & physical merchandise. Founders will be granted access to Alpha and Beta testing programs.</p>
+          </div>
+          </div>
+          <div class="grid">
+          <div class="icon">
+            <i class="fa-solid fa-fighter-jet"></i>
+            </div>
+          <div class="text">
+            <h2>Travel</h2>
+            <p>Train in the virtual world at home. Train and compete at physical Test of Mettle Host Sites. Travel to the Test of Mettle in Las Vegas to compete and level up your wage!</p>
+          </div>
+          </div>
+          <div class="grid">
+          <div class="icon">
+            <i class="fa-solid fa-usd"></i>
+            </div>
+          <div class="text">
+            <h2>Earn with Security</h2>
+            <p>Test of Mettle in Las Vegas and all Test of Mettle Host Sites include physical armed security personnel on site at all times. The company engages in appropriate measures to ensure data security for all members at all times.</p>
+            </div>
+          </div>
+        </div>
+      <div id="howitworks"></div>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/nYBVFQu2QzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div id="pricing">
+        <div class="product">
+          <div class="level">GOLD</div>
+            <h2>$2600</h2>
+            <ol>
+              <li>Bio Suit</li>
+              <li>Physical Gold Bar</li>
+              <li>Founder Registration Beta Key</li>
+              <li>Hat</li>
+              <li>Combat Shirt</li>
+            </ol>
+            <button class="btn">SELECT</button>
+            </div>
+            <div class="product">
+          <div class="level">SILVER</div>
+            <h2>$1000</h2>
+            <ol>
+              <li>Physical Gold Coin</li>
+              <li>Founder Registration Beta Key</li>
+              <li>Hat</li>
+              <li>Combat Shirt</li>
+            </ol>
+            <button class="btn">SELECT</button>
+            </div>
+            <div class="product">
+          <div class="level">BRONZE</div>
+            <h2>$300</h2>
+            <ol>
+              <li>Physical Gold Coin</li>
+              <li>Founder Registration Beta Key</li>
+              <li>Hat</li>
+              <li>Combat Shirt</li>
+            </ol>
+            <button class="btn">SELECT</button>
+            </div>
+      </div>
+    </div>
+  </body>
+  </html>
+  
+  body{
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 50px;
+  width: 300;
+  height: 300;
+}
+
+#header-img{
+  position: left;
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+}
+
+#nav-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  position: fixed;
+  font-weight: 800;
+  width: 100%;
+  top: 0;
+  background-color: var(--white);
+  padding: 10px;
+}
+
+.nav-link{
+  color: black;
+  text-decoration: none;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li{
+  list-style: none;
+}
+
+#hero, #form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero input[type="email"]{
+  max-width: 275px;
+  min-width: 100px;
+  width: 275px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+#hero input[type="submit"]{
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  background-color: #f1c40f;
+  border: none;
+  font-weight: 900;
+  font-size: 1em;
+}
+
+#features {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 0;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon { 
+  margin-right: 30px;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-solid {
+  color: darkgreen;
+  font-size: 50px;
+}
+
+#video {
+  width: 100%;
+}
+
+#howItWorks {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin: 60px;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%3);
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 3px;
+  min-width: 300px;
+}
+
+.level{
+  background-color: #ddd;
+  color: black;
+  width: 100%;
+  padding: 15px 0;
+  font-weight: 700;
+}
+
+ol > li{
+  margin-right: 25px;
+}
+
+.btn{
+  background-color: #f1c40f;
+  margin: 15px 0;
+  font-weight: 400;
+  border: 0;
+  width: 30%;
+  height: 30px;
+  font-size: 1em;
+  min-width: 100px;
+}
+
+@media(max-width: 700px){
+  #pricing{
+    flex-direction: column;
+    align-items: center;
+  }
+  .product{
+    width: 300px;
+  }
+}

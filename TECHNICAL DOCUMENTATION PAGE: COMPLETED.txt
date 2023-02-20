@@ -1,6 +1,9 @@
-<!Doctype html>
-  <html>
+  <!DOCTYPE html>
+  <html lang="en">
     <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content=width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
@@ -8,18 +11,18 @@
         <header>Test of Mettle Documentation</header>
         <ul>
           <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-          <li><a class="nav-link" href="#What You Should Already Know">What You Should Already Know</a></li>
-          <li><a class="nav-link" href="#ATOM App & Video Game">ATOM App & Video Game</a></li>
-          <li><a class="nav-link" href="#Purpose & Need">Purpose & Need</a></li>
+          <li><a class="nav-link" href="#What_You_Should_Already_Know">What You Should Already Know</a></li>
+          <li><a class="nav-link" href="#ATOM_App_&_Video_Game">ATOM App & Video Game</a></li>
+          <li><a class="nav-link" href="#Purpose_&_Need">Purpose & Need</a></li>
           <li><a class="nav-link" href="#Variables">Variables</a></li>
-          <li><a class="nav-link" href="#Declaring Variables">Declaring Variables</a></li>
-          <li><a class="nav-link" href="#Variable Scope">Variable Scope</a></li>
-          <li><a class="nav-link" href="#Global Variables">Global Variables</a></li>
+          <li><a class="nav-link" href="#Declaring_Variables">Declaring Variables</a></li>
+          <li><a class="nav-link" href="#Variable_Scope">Variable Scope</a></li>
+          <li><a class="nav-link" href="#Global_Variables">Global Variables</a></li>
           <li><a class="nav-link" href="#Constants">Constants</a></li>
-          <li><a class="nav-link" href="#Data Types">Data Types</a></li>
-          <li><a class="nav-link" href="#If...Else Statement">If...Else Statement</a></li>
-          <li><a class="nav-link" href="#While Statement">While Statement</a></li>
-          <li><a class="nav-link" href="#Function Declarations">Function Declarations</a></li>
+          <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+          <li><a class="nav-link" href="#If...Else_Statement">If...Else Statement</a></li>
+          <li><a class="nav-link" href="#While_Statement">While Statement</a></li>
+          <li><a class="nav-link" href="#Function_Declarations">Function Declarations</a></li>
           <li><a class="nav-link" href="#Reference">Reference</a></li>
         </ul>
         </nav>
@@ -35,28 +38,28 @@
             </ul>
           </article>
       </section>
-      <section class="main-section" id="What You Should Already Know">
+      <section class="main-section" id="What_You_Should_Already_Know">
         <header>What You Should Already Know</header>
         <article>
               <p>Test of Mettle is a new type of training platform that begins in the virtual world, then draws you into the physical world, learning real world skills along the way that lead to an upgraded and improved version of the member.</p>
               <ul>
                 <li>A general understanding of the internet and the World Wide Web</li>
                 <li>A good working knowledge of HyperText Markup Language (HTML)</li>
-                <li>Some basic programming experience. If you are new to programming, try one of the tutorials linked on the main page about.</li>
+                <li>Some basic programming experience. If you are new to programming, try one of the Free Code Camp tutorials on YouTube.</li>
                 </ul>
                 </article>
       </section>
-           <section class="main-section" id="Test of Mettle App & Video Game">
-             <header>Test of Mettle App & Video Game</header>
+           <section class="main-section" id="ATOM_App_&_Video_Game">
+             <header>ATOM App & Video Game</header>
              <article>
               <p>The United Nations and the WEF have identified that climate change and the international job crisis are two of the most serious threats to civilization. BIOSPHERE Resorts and the Test of Mettle are member owned rapidly deployable solutions.</p>
               <p>Test of Mettle experiences are standard, however, Test of Mettle Host Sites offer slight variables such as; location, weather, services, etc.</p>
               <p>Earn to play and travel to play, this video game is a solution to the international job crisis.</p>
             </article>
-           <section class="main-section" id="Purpose & Need">
+           <section class="main-section" id="Purpose_&_Need">
              <header>Purpose & Need</header>
              <article>
-               <p>To get started with the Test of Mettle, download the app and write your first "Hello World" Javascript Code:</p>
+               <p>Everyone should learn how to code, it helps you organize your thoughts when engaging in activities. Lets learn some basic coding. To get started, download the Test of Mettle app and write your first "Hello World" Javascript Code:</p>
                <code>function greetMe(Erik) { alert("Hello " + yourName);}greetMe("World");</code>
 
                <p>Select the code in the pad and hit the Ctrl+R to watch it unfold in your browser!</p>
@@ -66,14 +69,14 @@
              <p>Variables are used as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
              <p>A JavaScript identifier must start with a letter, underscore(_), or dollar sign ($); subsequent characters can also be digits (0-9). JavaScript is case sensitive.</p>
            </section>
-           <section class="main-section" id="Declaring Variables">
+           <section class="main-section" id="Declaring_Variables">
              <header>Declaring Variables</header>
              <article><p>You can declare a variable in three ways:</p>
              <p>Variables are used as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
              <p>A JavaScript identifier must start with a letter, underscore(_), or dollar sign ($); subsequent characters can also be digits (0-9). JavaScript is case sensitive.</p>
              </article>
            </section>
-           <section class="main-section" id="Variable Scope">
+           <section class="main-section" id="Variable_Scope">
              <header>Variable Scope</header>
              <article> 
              <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
@@ -83,7 +86,7 @@
              <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code>
              </article>
            </section>
-           <section class="main-section" id="Global_variables">
+           <section class="main-section" id="Global_Variables">
              <header>Global Variables</header>
              <article>
                <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.</p>
@@ -104,7 +107,7 @@
               <p></p>
             </article>
           </section>
-          <section class="main-section" id="Data_types">
+          <section class="main-section" id="Data_Types">
             <header>Data Types</header>
             <article>
               <p>The latest ECMAScript standard defines seven data types:</p>
@@ -112,7 +115,7 @@
                 <li>
                   <p>Six data types that are primitives:</p>
                 <ul>
-                  <li>Boolean. true and false.</li>
+                  <li>Boolean: true and false.</li>
                   <li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
                   <li>undefined. A top-level property whose value is undefined.</li>
                   <li>Number. 42 or 3.14159.</li>
@@ -125,7 +128,7 @@
             <p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
             </article>
           </section>
-          <section class="main-section" id="if...else_statement">
+          <section class="main-section" id="If...Else_Statement">
             <header>if...else statement</header>
             <article>
           <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
@@ -144,7 +147,7 @@ statement_4_runs_if_condition_is_false; }</code>
           <code>if ((x = y)) { /* statements here */ }</code>
         </article>
       </section>
-      <section class="main-section" id="while_statement">
+      <section class="main-section" id="While_Statement">
         <header>while statement</header>
         <article>
           <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:</p>
@@ -165,7 +168,7 @@ statement_4_runs_if_condition_is_false; }</code>
           <p>After completing the third pass, the condition n &lt; 3 is no longer true, so the loop terminates.</p>
         </article>
       </section>
-       <section class="main-section" id="Function_declarations">
+       <section class="main-section" id="Function_Declarations">
         <header>Function declarations</header>
         <article>
           <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:</p>
@@ -185,7 +188,8 @@ statement_4_runs_if_condition_is_false; }</code>
       <section class="main-section" id="Reference">
         <header>Reference</header>
         <article>
-          <ul>
+          <p>The Test of Mettle is a solution to the international job crisis, which operates within BIOSPHERE Resorts - a solution to climate change. This project is in the highest and best interests of all humans, animals and plants. We welcome your support. For more information visit: www.TESTOFMETTLE.com</p>
+            <ul>
             <li>
               All the documentation in this page is taken from
               <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a>
@@ -193,6 +197,123 @@ statement_4_runs_if_condition_is_false; }</code>
           </ul>
         </article>
       </section>
+      <footer>
+        <p>Documentation author: Ancient Builder</p>
+      </footer>
     </main>
     </body>
   </html>
+  
+  * {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+section {
+  margin-top: 40px;
+}
+
+#navbar {
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid; 
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid black;
+  list-style: none;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: text-indent 0.3s ease-in-out;
+}
+
+#navbar a:hover {
+  font-weight: 500;
+  text-indent: 5px; 
+}
+
+p {
+  margin: 10px;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+#main-doc {
+  margin: 0 auto;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  background-color: #fff;
+  padding: 0 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.image {
+  width: 100%;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  color: #888;
+}
+
+@media only screen and (min-width: 815px) {
+  body {
+    flex-direction: row;
+  }
+  #navbar {
+    width: 300px;
+    position: fixed;
+    height: 100%;
+    resize: horizontal;
+    overflow-x: scroll;
+  }
+
+  .image {
+    width: 300px;
+    margin-left: 20px;
+  }
+
+  #main-doc {
+    margin: 0 20px;
+    margin-left: 350px;
+  }
+}

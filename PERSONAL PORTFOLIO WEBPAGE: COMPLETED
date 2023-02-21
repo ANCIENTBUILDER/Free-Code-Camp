@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=0" />
+    <title>Ancient Builder</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul class="nav-links">
+          <li><a href="#welcome-section" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="welcome-section">
+      <h1>Ancient Builder</h1>
+        <p>a full stack developer</p>
+    </section>
+        <h2>PORTFOLIO</h2>
+    <section id="projects">
+      <div class="projects">
+        <a href="#" class="project-tile">
+          <img src="https://github.com/ANCIENTBUILDER/hosted-assets/raw/main/david_ike_portrait.jpg?raw=true" alt="" />
+          <p><span>Tribute</span></p>
+          </a>
+          <a href="#" class="project-tile">
+          <img src="https://user-images.githubusercontent.com/51065039/209884068-ed9227f9-e92b-4ab0-953b-6912710c4bac.png" alt="" />
+          <p><span>Survey Form</span></p>
+          </a>
+          <a href="#" class="project-tile">
+          <img src="https://github.com/ANCIENTBUILDER/Free-Code-Camp/blob/main/TECH%20DOC%20SITE%20JPG.JPG?raw=true" alt="" />
+          <p><span>Technical Documentation</span></p>
+          </a>
+          <a href="https://www.testofmettle.com" class="project-tile">
+          <img src="https://github.com/ANCIENTBUILDER/TEST-OF-METTLE/blob/main/cold-fire-blue-red-background.jpg?raw=true" alt="" />
+          <p><span>Product Landing Page</span></p>
+          </a>
+          <a href="https://www.biosphere-resorts.com" class="project-tile">
+          <img src="https://github.com/ANCIENTBUILDER/ASSETS/blob/main/newGOLD1.png?raw=true" alt="" />
+          <p><span>Portfolio</span></p>
+          </a>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>I am at your service.</h2>
+      <p>Call me with your objective and we'll talk about deployment.</p>
+      <div class="social-medias">
+        <a href="https://www.linkedin.com/in/erik-powers-0204887/" class="social-media">
+          <i class="ri-linkedin-fill ri-2x"></i>
+          <p>LinkedIn</p>
+        </a>
+        <a href="https://t.me/+VJogF2L4BuY4MWMx" class="social-media">
+          <i class="ri-telegram-fill ri-2x"></i>
+          <p>Telegram</p>
+        </a>
+        <a href="https://erikpowers.com/" class="social-media">
+          <i class="ri-discord-fill ri-2x"></i>
+          <p>Discord</p>
+        </a>
+        <a href="https://twitter.com/BIOSPHERE_News" class="social-media">
+          <i class="ri-twitter-fill ri-2x"></i>
+          <p>Twitter</p>
+        </a>
+        <a target="_blank" href="https://github.com/ANCIENTBUILDER 
+                           class="social-media"
+                           id="profile-link">
+          <i class="ri-github-fill ri-2x"></i>
+          <p>Github</p>
+        </a>
+        <a href="https://www.biosphere-resorts.com" class="social-media">
+          <i class="ri-ancient-gate-fill ri-2x"></i>
+          <p>BIOSPHERE</p>
+        </a>
+    </section>
+  </body>
+  </html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+:root {
+  --neutral: #00000e;
+  --base-100: #fffffe;
+  --neutral-focus: #121629;
+  --primary: #eebbc3;
+  --accent: #d4d8f0;
+  --secondary: #b8c1ec;
+}
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Serif", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: var(--neutral)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Poppins", san-serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+
+p {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000000;
+  font-size: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--neutral);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: var(--base-100);
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 1rem 2rem;
+}
+
+section {
+  min-height: 50vh;
+  padding: 50px 0;
+}
+
+#welcome-section {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #161B22;
+}
+
+#welcome-section h1 {  
+  margin-top: 10vh;
+  font-size: 80px;
+}
+
+#welcome-section p {
+  color: white;
+  font-size: 25px;
+}
+
+#projects {
+  color: white;
+}
+
+#projects h1 {
+  border-bottom: 5px solid var(--neutral);
+  width: fit-content;
+  margin: auto;
+}
+
+#projects .projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  place-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#projects .project-tile {
+  height: 525px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--neutral);
+  text-decoration: none;
+  color: var(--accent);
+  border-radius: 5px;
+  box-shadow: 8px 8px 10px 5px rgba(100, 100, 100, 0.5);
+}
+
+#projects .project-tile img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#projects .project-tile p {
+  font-size: 25px;
+  padding: 10px;
+}
+
+#contact {
+  color: white;
+}
+
+#contact h1 {
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+}
+
+#contact .social-medias {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#contact .social-media {
+  text-decoration: none;
+  color: var(--base-100);
+  transition: transform 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 22px;
+}
+
+#contact .social-media:hover {
+  transform: translateY(10px);
+}
+
+footer {
+  border-top: 3px solid white;
+  color: var(--base-100);
+  font-size: 25px;
+  padding: 30px;
+}
+
+@media only screen and (width < 700px) {
+  h1 {
+    font-size: 50px;    
+  }
+  #projects .project-tile {
+    height: 600px;
+    width: 100%;
+  }
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                    COMPLETED Feb 21, 2023
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+OLD
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul id="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome-section"></section>
+    <section id="projects" class="projects"></section>
+    <section id="contact" class="contact"></section>
+  </body>
+  </html>
+
+body{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar{
+  background-color: #be3144;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#nav-list{
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 1rem 2rem;
+}
+
+a:hover{
+  background-color: #45567d;
+}
+
+#welcome-section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  background-image: linear-gradient(
+    62deg,
+    #3a3d40 0%,
+    #181719
+  )
+}

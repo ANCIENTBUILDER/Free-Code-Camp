@@ -11,3 +11,9 @@ What will print out after running these two lines of code:
   print(x)
 6
 
+What will the following program print out:
+  x = 43
+  x = x + 1
+  print(x)
+44
+

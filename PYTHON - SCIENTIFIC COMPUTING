@@ -19,3 +19,8 @@ What will the following program print out:
 
 What is the symbol used in an assignment statement?
 =
+
+What is the purpose of the "def" keyword in Python?
+  It indicates the start of a function, and the following indented section of code is to be stored for later.
+  
+  

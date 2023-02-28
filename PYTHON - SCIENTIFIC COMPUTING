@@ -24,3 +24,11 @@ What is the purpose of the "def" keyword in Python?
   It indicates the start of a function, and the following indented section of code is to be stored for later.
   
   
+
+
+
+What will the following code print?:
+  for n in "banana":
+    print(n)
+banana 
+ 

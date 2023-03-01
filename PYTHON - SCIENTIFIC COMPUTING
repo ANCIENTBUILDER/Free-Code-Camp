@@ -1,6 +1,6 @@
 PYTHON - SCIENTIFIC COMPUTING
 
-Who should learn to program?
+Who should learn to program? -----------------------------------------------------------------------------
 Everyone.
 
 Where are your programs stored when they are running? ----------------------------------------------------
@@ -23,7 +23,10 @@ What is the symbol used in an assignment statement? ----------------------------
 What is the purpose of the "def" keyword in Python? -------------------------------------------------------
   It indicates the start of a function, and the following indented section of code is to be stored for later.
   
-  
+Which code is indented correctly to print "Yes" if x = 0 and y = 10? --------------------------------------
+if 0 == x:
+    if y == 10:
+        print("Yes")
 
 
 

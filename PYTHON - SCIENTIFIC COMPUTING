@@ -39,7 +39,15 @@ Given the following code: ------------------------------------------------------
 What is the purpose of the "def" keyword in Python? ------------------------------------------------------
   It indicates the start of a function, and the following indented section of code is to be stored for later.
 
+What will the following Python program print out?: -------------------------------------------------------
+  def fred():
+      print("Zap")
+  def jane():
+      print("ABC")
 
+  jane()
+  fred()
+  jane()
 
 
 

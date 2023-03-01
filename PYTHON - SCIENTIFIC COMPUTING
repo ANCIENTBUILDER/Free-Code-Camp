@@ -41,4 +41,6 @@ What is used to indicate a new line in a string?  ------------------------------
 \n
 
 What does the word 'continue' do in the middle of a loop?  -----------------------------------------------
+  Skips to the next iteration of the loop.
+  
 

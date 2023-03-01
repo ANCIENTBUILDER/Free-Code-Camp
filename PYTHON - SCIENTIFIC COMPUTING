@@ -49,6 +49,19 @@ What will the following Python program print out?: -----------------------------
   fred()
   jane()
 
+ABC
+Zap
+ABC
+
+What will the following code print out?: -----------------------------------------------------------------
+  n = 0
+  while True:
+      if n == 3:
+          break
+      print(n)
+      n = n + 1
+
+
 
 
 

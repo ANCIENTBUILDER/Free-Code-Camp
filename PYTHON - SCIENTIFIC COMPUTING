@@ -36,3 +36,7 @@ What is the value of i in the following code? ----------------------------------
   word = "bananana"
   i = word.find("na")
 2
+
+What is used to indicate a new line in a string?  -----------------------------------------------------------------
+\n
+

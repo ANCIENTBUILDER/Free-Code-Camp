@@ -3,32 +3,35 @@ PYTHON - SCIENTIFIC COMPUTING
 Who should learn to program?
 Everyone.
 
-Where are your programs stored when they are running?
+Where are your programs stored when they are running? ----------------------------------------------------
 Memory.
 
-What will print out after running these two lines of code:
+What will print out after running these two lines of code: -----------------------------------------------
   x = 6
   print(x)
 6
 
-What will the following program print out:
+What will the following program print out: ---------------------------------------------------------------
   x = 43
   x = x + 1
   print(x)
 44
 
-What is the symbol used in an assignment statement?
+What is the symbol used in an assignment statement? -------------------------------------------------------
 =
 
-What is the purpose of the "def" keyword in Python?
+What is the purpose of the "def" keyword in Python? -------------------------------------------------------
   It indicates the start of a function, and the following indented section of code is to be stored for later.
   
   
 
 
 
-What will the following code print?:
+What will the following code print?: ---------------------------------------------------------------------
   for n in "banana":
     print(n)
 banana 
  
+What is the value of i in the following code? ------------------------------------------------------------
+  word = "bananana"
+  i = word.find("na")

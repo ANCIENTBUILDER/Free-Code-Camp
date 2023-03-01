@@ -43,4 +43,8 @@ What is used to indicate a new line in a string?  ------------------------------
 What does the word 'continue' do in the middle of a loop?  -----------------------------------------------
   Skips to the next iteration of the loop.
   
+What is the value of x after running this code: -----------------------------------------------------------
+  fruit = "banana"
+  x = fruit[1]  
+a
 

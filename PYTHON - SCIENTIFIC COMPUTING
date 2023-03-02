@@ -77,14 +77,17 @@ What is the value of i in the following code? ----------------------------------
   i = word.find("na")
 2
 
-What is used to indicate a new line in a string?  -----------------------------------------------------------------
+What is used to indicate a new line in a string?  --------------------------------------------------------
 \n
 
 What does the word 'continue' do in the middle of a loop?  -----------------------------------------------
   Skips to the next iteration of the loop.
   
-What is the value of x after running this code: -----------------------------------------------------------
+What is the value of x after running this code: ----------------------------------------------------------
   fruit = "banana"
   x = fruit[1]  
 a
+
+Which method is used to add an item at the end of a list? -------------------------------------------------
+append
 

@@ -104,3 +104,7 @@ What does dict equal after running this code?: ---------------------------------
   dict["Sat"] = 2
   dict["Sun"] = 9
 {'Fri': 20, 'Thu': 13, 'Sat': 2, 'Sun': 9}
+
+What will the following code print? -----------------------------------------------------------------------
+  counts = { 'quincy' : 1 , 'mrugesh' : 42, 'beau': 100, '0': 10}
+  print(counts.get('kris', 0))

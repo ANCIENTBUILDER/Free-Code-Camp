@@ -103,4 +103,4 @@ What does dict equal after running this code?: ---------------------------------
   dict["Thu"] = 13
   dict["Sat"] = 2
   dict["Sun"] = 9
-
+{'Fri': 20, 'Thu': 13, 'Sat': 2, 'Sun': 9}

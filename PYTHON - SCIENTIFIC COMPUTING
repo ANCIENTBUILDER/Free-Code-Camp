@@ -98,3 +98,9 @@ What does n equal in this code? ------------------------------------------------
   n = parts[1]
 lar@freecodecamp.org
 
+What does dict equal after running this code?: -----------------------------------------------------------
+  dict = {"Fri": 20, "Thu": 6, "Sat": 1}
+  dict["Thu"] = 13
+  dict["Sat"] = 2
+  dict["Sun"] = 9
+

@@ -151,4 +151,4 @@ What will the following program print?: ----------------------------------------
 ['csev@umich.edu', 'cwen@iupui.edu']
 
 What will search for a "$" in a regular expression? ----------------------------------------------------
-
+\$

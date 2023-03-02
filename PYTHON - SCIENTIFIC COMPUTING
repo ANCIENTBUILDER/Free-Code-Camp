@@ -91,3 +91,10 @@ a
 Which method is used to add an item at the end of a list? -------------------------------------------------
 append
 
+What does n equal in this code? --------------------------------------------------------------------------
+  words = 'His e-mail is q-lar@freecodecamp.org'
+  pieces = words.split()
+  parts = pieces[3].split('-')
+  n = parts[1]
+
+

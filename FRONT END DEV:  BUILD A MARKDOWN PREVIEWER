@@ -27,6 +27,7 @@
         </div>
         <div class="col-6 bg-danger">
           <p>Markdown Previewer</p>
+          <textarea id="editor" onkeyup="updatePreview()"></textarea> 
           <div id="preview"></div>
         </div>
       </div>
@@ -37,4 +38,3 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
-

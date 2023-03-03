@@ -189,5 +189,7 @@ Networking: Write a Web Browser - What does the following code create?: --------
       print(data.decode(),end='')
   mysock.close()
 
+A simple web browser.
+
 
 

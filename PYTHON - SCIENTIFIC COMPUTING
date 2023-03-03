@@ -194,4 +194,9 @@ A simple web browser.
 Networking: Text Processing - Which type of encoding do most websites use? ----------------------------
 UTF-8
 
-
+Networking: Using urllib in Python - What will the output of the following code be like?: -------------
+  import urllib.request
+  fhand = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')
+  for line in fhand:
+      print(line.decode().strip())
+Just contents of "romeo.txt".

@@ -157,6 +157,8 @@ Networking with Python - What Python library gives access to TCP Sockets? ------
 socket
 
 Networking Protocol - What type of HTTP request is usually used to access a website? -------------------
+GET
+
 
 
 

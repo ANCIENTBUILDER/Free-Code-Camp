@@ -200,3 +200,8 @@ Networking: Using urllib in Python - What will the output of the following code 
   for line in fhand:
       print(line.decode().strip())
 Just contents of "romeo.txt".
+
+Networking: Web Scraping with Python - What Python library is used for parsing HTML documents and extracting data from HTML documents? ------------------------------------
+BeautifulSoup
+
+

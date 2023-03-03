@@ -207,3 +207,10 @@ BeautifulSoup
 Using Web Services - What are the two most common ways to send data over the internet?
 JSON and XML
 
+Web Services: XML - What is wrong with the following XML?:
+  <person>
+    <name>Chuck</name>
+    <phone type="intl">
+      +1 734 303 4456
+    <email hide="yes" />
+  </person>

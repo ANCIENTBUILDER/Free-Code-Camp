@@ -251,7 +251,16 @@ key
 Python Objects - Which is NOT true about objects in Python? ----------------------------------------
 Objects are one of the five standard data types.
 
+Objects: A Sample Class - What will the following program print?: -----------------------------------
+  class PartyAnimal:
+      x = 0
+      def party(self):
+          self.x = self.x + 2
+          print(self.x)
 
+  an = PartyAnimal()
+  an.party()
+  an.party()
 
 
 

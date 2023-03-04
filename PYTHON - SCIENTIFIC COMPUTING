@@ -261,7 +261,8 @@ Objects: A Sample Class - What will the following program print?: --------------
   an = PartyAnimal()
   an.party()
   an.party()
-
+2
+4
 
 
 

@@ -214,3 +214,6 @@ Web Services: XML - What is wrong with the following XML?:
       +1 734 303 4456
     <email hide="yes" />
   </person>
+
+Phone tag is missing closing tag.
+

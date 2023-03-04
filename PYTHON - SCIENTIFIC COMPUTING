@@ -300,6 +300,10 @@ SELECT * FROM Users WHERE email="quincy@freecodecamp.org"
 Relational Database Design - What is the best practice for how many times a piece of string data should be stored in a database? --------------------------------------------
 1
 
+Representing Relationships in a Relational Database - What is a foreign key? ------------------------------------------------------------------------------------------------
+A number that points to the primary key of an associated row in a different table.
+
+
 
 
 

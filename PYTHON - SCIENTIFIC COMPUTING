@@ -309,6 +309,11 @@ It defines a new row by listing the fields we want to include followed by the va
 Relational Databases: Join Operation - When using a JOIN clause in an SQL statement, what does ON do? ----------------------------------------------------------------------
 It indicates how the two tables are to be joined.
 
+Relational Databases: Many-to-many Relationships - Which is an example of a many-to-many relationship? ---------------------------------------------------------------------
+teacher to student
+
+
+
 
 
 

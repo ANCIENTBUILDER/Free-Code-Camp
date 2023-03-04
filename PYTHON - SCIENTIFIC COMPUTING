@@ -475,7 +475,8 @@ SELECT User.name, Member.role, Course.title
 Visualizing Data with Python - Most data needs to be ______ before using it. -----------------------------------------------------------------------------------------------
 CLEANED
 
-
+Data Visualization: Page Rank - How does the PageRank algorithm work? ------------------------------------------------------------------------------------------------------
+It determines which pages are most highly connected.
 
 
 

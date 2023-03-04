@@ -306,6 +306,9 @@ A number that points to the primary key of an associated row in a different tabl
 Relational Databases: Relationship Building - What does the INSERT command do in SQL? ---------------------------------------------------------------------------------------
 It defines a new row by listing the fields we want to include followed by the values we want placed in the new row.
 
+Relational Databases: Join Operation - When using a JOIN clause in an SQL statement, what does ON do? ----------------------------------------------------------------------
+It indicates how the two tables are to be joined.
+
 
 
 

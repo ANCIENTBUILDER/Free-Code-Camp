@@ -312,32 +312,22 @@ It indicates how the two tables are to be joined.
 Relational Databases: Many-to-many Relationships - Which is an example of a many-to-many relationship? ---------------------------------------------------------------------
 teacher to student
 
+Visualizing Data with Python - Most data needs to be ______ before using it. -----------------------------------------------------------------------------------------------
+CLEANED
+
+Data Visualization: Page Rank - How does the PageRank algorithm work? ------------------------------------------------------------------------------------------------------
+It determines which pages are most highly connected.
+
+Data Visualization: Mailing Lists - Which is a common JavaScript visualization library? ------------------------------------------------------------------------------------
+D3
+
+
+COMPLETED March 04, 2023
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -472,11 +462,7 @@ SELECT User.name, Member.role, Course.title
   ON Member.user_id = User.id AND Member.course_id = Course.id
   ORDER BY Course.title, Member.role DESC, User.name 
 
-Visualizing Data with Python - Most data needs to be ______ before using it. -----------------------------------------------------------------------------------------------
-CLEANED
 
-Data Visualization: Page Rank - How does the PageRank algorithm work? ------------------------------------------------------------------------------------------------------
-It determines which pages are most highly connected.
 
 
 

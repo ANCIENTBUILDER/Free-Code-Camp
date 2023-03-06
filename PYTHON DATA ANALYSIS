@@ -7,5 +7,8 @@ Picking a desired conclusion for the analysis.
 Data Analysis Example A - What does the shape of our dataframe tell us? ---------------------------------------------------------------
 How many rows and columns our dataframe has.
 
+Data Analysis Example B - What does the loc method allow you to do? -------------------------------------------------------------------
+Access a group of rows and columns by supplying label(s) arguments.
+
 
 

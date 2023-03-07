@@ -34,5 +34,9 @@ Numpy Arrays - What will the following code print out? -------------------------
 
     print(A[:, :2])
 
+[['a' 'b']
+['d' 'e']
+['g' 'h']]
+
 
 

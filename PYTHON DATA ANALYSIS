@@ -23,3 +23,8 @@ Numpy Introduction A - Why is Numpy an important, but unpopular Python library? 
 Often you won't work directly with Numpy.
 
 Numpy Introduction B - About how much memory does the integer 5 consume in plain Python? ----------------------------------------------
+20 bytes
+
+
+
+

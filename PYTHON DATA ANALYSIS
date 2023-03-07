@@ -25,6 +25,14 @@ Often you won't work directly with Numpy.
 Numpy Introduction B - About how much memory does the integer 5 consume in plain Python? ----------------------------------------------
 20 bytes
 
+Numpy Arrays - What will the following code print out? --------------------------------------------------------------------------------
+    A = np.array([
+        ['a', 'b', 'c'],
+        ['d', 'e', 'f'],
+        ['g', 'h', 'i']
+    ])
+
+    print(A[:, :2])
 
 
 

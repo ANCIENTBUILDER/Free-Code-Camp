@@ -42,3 +42,11 @@ Numpy Operations - What is the value of a after you run the following code? ----
     a = np.arange(5)
     a + 20
 
+[0, 1, 2, 3, 4]
+
+Numpy Boolean Arrays - What will the following code print out? -----------------------------------------------------------------------
+a = np.arange(5)
+
+print(a <= 3)
+
+

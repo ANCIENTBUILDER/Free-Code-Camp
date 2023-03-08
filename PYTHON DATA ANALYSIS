@@ -146,7 +146,7 @@ Data Cleaning Introduction - What will the following code print out? -----------
 
     print(s.notnull().sum())
 
-
+3
 
 
 

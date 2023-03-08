@@ -38,5 +38,7 @@ Numpy Arrays - What will the following code print out? -------------------------
 ['d' 'e']
 ['g' 'h']]
 
-
+Numpy Operations - What is the value of a after you run the following code? ----------------------------------------------------------
+    a = np.arange(5)
+    a + 20
 

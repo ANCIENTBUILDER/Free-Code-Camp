@@ -88,16 +88,20 @@ Beau     6
 dtype: int64
 
 Pandas DataFrames - What will the following code print out? ----------------------------------------------------------------------
-import pandas as pd
+    import pandas as pd
 
-certificates_earned = pd.DataFrame({
-    'Certificates': [8, 2, 5, 6],
-    'Time (in months)': [16, 5, 9, 12]
-})
+    certificates_earned = pd.DataFrame({
+        'Certificates': [8, 2, 5, 6],
+        'Time (in months)': [16, 5, 9, 12]
+    })
 
-certificates_earned.index = ['Tom', 'Kris', 'Ahmad', 'Beau']
+    certificates_earned.index = ['Tom', 'Kris', 'Ahmad', 'Beau']
 
-print(certificates_earned.iloc[2])
+    print(certificates_earned.iloc[2])
+
+Certificates        5
+Time (in months)    9
+Name: Ahmad, dtype: int64
 
 
 

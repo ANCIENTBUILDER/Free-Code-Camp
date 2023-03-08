@@ -83,4 +83,9 @@ Pandas Indexing and Conditional Selection - What will the following code print o
 
     print(certificates_earned[certificates_earned > 5])
 
+Tom      8
+Beau     6
+dtype: int64
+
+
 

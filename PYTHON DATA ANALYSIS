@@ -51,4 +51,8 @@ Numpy Boolean Arrays - What will the following code print out? -----------------
 
 [True, True, True, True, False]
 
+Numpy Algebra and Size - What is the relationship between size of objects (such as lists and datatypes) in memory in Python's standard library and the NumPy library? Knowing this, what are the implications for performance? -------------------------------------------------------------------------------------
+
+
+
 

@@ -67,6 +67,12 @@ Pandas Introduction - What will the following code print out? ------------------
 
     print(certificates_earned)
 
+Tom      8
+Kris     2
+Ahmad    5
+Beau     6
+dtype: int64
+
 
 
 

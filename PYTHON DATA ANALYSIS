@@ -172,21 +172,24 @@ Data Cleaning and Visualizations - When using Matplotlib's global API, what does
 My figure will have one row, two columns, and I am going to start drawing in the first (left) plot.
 
 Reading Data Introduction - Given a file named certificates.csv with these contents: -------------------------------------------
-        Name$Certificates$Time (in months)
-        Tom$8$16
-        Kris$2$5
-        Ahmad$5$9
-        Beau$6$12
-        Fill in the blanks for the missing arguments below:
-import csv
+                    Name$Certificates$Time (in months)
+                    Tom$8$16
+                    Kris$2$5
+                    Ahmad$5$9
+                    Beau$6$12
+                    Fill in the blanks for the missing arguments below:
+    import csv
 
-with open(__A__, 'r') as fp:
-    reader = csv.reader(fp, delimiter=__B__)
-    next(reader)
-    for index, values in enumerate(reader):
-        name, certs_num, months_num = values
-        print(f"{name} earned {__C__} certificates in {months_num} months")
+    with open(__A__, 'r') as fp:
+        reader = csv.reader(fp, delimiter=__B__)
+        next(reader)
+        for index, values in enumerate(reader):
+            name, certs_num, months_num = values
+            print(f"{name} earned {__C__} certificates in {months_num} months")
 
+A: 'certificates.csv'
+B: '$'
+C: certs_num
 
 
 

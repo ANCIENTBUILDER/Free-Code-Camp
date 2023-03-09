@@ -198,6 +198,9 @@ df = pd.read_csv("data.csv")
 Reading Data from Databases - What method does a Cursor instance have and what does it allow? -----------------------------------------------------------------------------
 The Cursor instance has an .execute() method which will receive SQL parameters to run against the database.
 
+Parsing HTML and Saving Data - What Python library has the .read_html() method we can use for parsing HTML documents and extracting tables? -------------------------------
+
+
 
 
 

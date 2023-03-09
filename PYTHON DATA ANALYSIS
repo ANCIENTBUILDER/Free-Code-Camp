@@ -167,6 +167,8 @@ dtype: float64
 Data Cleaning Duplicates - The Python method .duplicated() returns a boolean Series for your DataFrame. True is the return value for rows that: -------------------------------
 contain a duplicate, where the value for the row is at least the second occurrence of that value.
 
+Data Cleaning and Visualizations - When using Matplotlib's global API, what does the order of numbers mean here? -------------------------------------------------------------
+    plt.subplot(1, 2, 1)
 
 
 

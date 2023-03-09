@@ -201,6 +201,8 @@ The Cursor instance has an .execute() method which will receive SQL parameters t
 Parsing HTML and Saving Data - What Python library has the .read_html() method we can use for parsing HTML documents and extracting tables? -------------------------------
 Pandas
 
+Python Introduction - How do we define blocks of code in the body of functions in Python? ---------------------------------------------------------------------------------
+
 
 
 

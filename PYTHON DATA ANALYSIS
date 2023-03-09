@@ -191,5 +191,6 @@ A: 'certificates.csv'
 B: '$'
 C: certs_num
 
+Reading Data CSV and TXT - How would you import the CSV file data.csv and store it in a DataFrame using the Pandas module? ------------------------------------------------
 
 

@@ -165,6 +165,8 @@ Data Cleaning with DataFrames - What will the following code print out? --------
 dtype: float64
 
 Data Cleaning Duplicates - The Python method .duplicated() returns a boolean Series for your DataFrame. True is the return value for rows that: -------------------------------
+contain a duplicate, where the value for the row is at least the second occurrence of that value.
+
 
 
 

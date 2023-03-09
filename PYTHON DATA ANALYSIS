@@ -148,7 +148,7 @@ Data Cleaning Introduction - What will the following code print out? -----------
 
 3
 
-Data Cleaning with DataFrames - What will the following code print out? --------------------------------------------------------
+Data Cleaning with DataFrames - What will the following code print out? --------------------------------------------------------   ******//
     import pandas as pd
     import numpy as np
 
@@ -163,6 +163,10 @@ Data Cleaning with DataFrames - What will the following code print out? --------
 3    2.0
 4    3.0
 dtype: float64
+
+Data Cleaning Duplicates - The Python method .duplicated() returns a boolean Series for your DataFrame. True is the return value for rows that: -------------------------------
+
+
 
 
 

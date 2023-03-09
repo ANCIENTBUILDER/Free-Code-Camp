@@ -207,4 +207,12 @@ We use indentation, usually right-aligned 4 spaces.
 Python Functions and Collections - What is the main difference between lists and tuples in Python? -----------------------------------------------------------------------
 Tuples are immutable.
 
+Python Iteration and Modules - How would you iterate over and print the keys and values of a dictionary named user? ------------------------------------------------------
+for key, value in user.items():
+    print(key, value)
+
+
+
+
+
 

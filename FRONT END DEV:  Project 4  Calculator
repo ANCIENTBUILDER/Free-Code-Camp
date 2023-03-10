@@ -1,2 +1,172 @@
 FRONT END DEV:  Project 4  Calculator
 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <link rel="stylesheet" href="./calcstyle.css"
+        <title>Calculate in Java</title>
+    </head>
+    <body>
+            <div id="root"></div>
+        <script type="text/babel" src="./indexcalc.js"></script>
+    </body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------
+
+function App() {
+    const [expression, setExpression] = React.useState("");
+    const [answer, setAnswer] = React.useState("");
+
+    const display = (symbol) => {
+        setExpression(prev => prev + symbol)
+        if(expression[expression.length-1] == "="){
+            if(/[0-9.]/.test(symbol)){
+                setExpression(symbol);
+            } else {
+                setExpression(answer + symbol);
+            }
+        }
+    };
+
+    const calculate = () => {
+        setAnswer(eval(expression));
+        setExpression((prev) => prev + "=");
+    };
+
+    const allClear = () => {
+        setExpression("");
+        setAnswer(0);
+    };
+
+    const clear = () => {
+        setExpression((prev) =>
+        prev
+            .split("")
+            .slice(0, prev.length -1)
+            .join("")
+        );
+        setAnswer(0);
+    };    
+
+    return (
+        <div className="container">
+            <div className="grid">
+                <div className="dis">
+                    <input type="text" value={expression} placeholder="0" disabled />
+                    <div className="total">{answer}</div>
+                </div>
+                <div onClick={clear} className="padButton C red">C</div>
+                <div onClick={allClear} className="padButton AC red">AC</div>
+                <div onClick={() => display("/")} className="padButton div blue">/</div>
+                <div onClick={() => display("*")} className="padButton times blue">x</div>
+                <div onClick={() => display("7")} className="padButton seven dark-gray">7</div>
+                <div onClick={() => display("8")} className="padButton eight dark-gray">8</div>
+                <div onClick={() => display("9")} className="padButton nine dark-gray">9</div>
+                <div onClick={() => display("-")} className="padButton minus blue">-</div>
+                <div onClick={() => display("4")} className="padButton four dark-gray">4</div>
+                <div onClick={() => display("5")} className="padButton five dark-gray">5</div>
+                <div onClick={() => display("6")} className="padButton six dark-gray">6</div>
+                <div onClick={() => display("+")} className="padButton plus blue">+</div>
+                <div onClick={() => display("1")} className="padButton one dark-gray">1</div>
+                <div onClick={() => display("2")} className="padButton two dark-gray">2</div>
+                <div onClick={() => display("3")} className="padButton three dark-gray">3</div>
+                <div onClick={calculate} className="padButton equal">=</div>
+                <div onClick={() => display("0")} className="padButton zero dark-gray">0</div>
+                <div onClick={() => display(".")} className="padButton dot dark-gray">.</div>                    
+            </div>
+        </div>
+    );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+.container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "dis dis dis dis"
+    "AC C div times"
+    "seven eight nine minuse"
+    "four five six plus"
+    "one two three equal"
+    "zero zero dot equal"
+    ;
+}
+
+.padButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.padButton:hover{
+    border: 1px solid white;
+    color: #ccc;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.dark-gray{
+    background-color: #333333;
+}
+
+.dis{
+    grid-area: dis;
+    background-color: black;
+    text-align: right;
+    font-size: 40px;
+}
+
+.dis input{
+    width: 90%;
+    color: white;
+    padding: 5px 20px;
+    text-align: right;
+    background-color: black;
+    font-size: 20px;
+}
+
+.total{
+    padding: 5px 20px;
+    color: rgb(147, 247, 8);
+}
+
+.zero{
+    grid-area: zero;
+}
+
+.equal{
+    grid-area: equal;
+    background-color: #00ff00;
+}
+
+----------------------------------------------
+COMPLETED MARCH 09, 2023

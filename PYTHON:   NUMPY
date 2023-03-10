@@ -27,3 +27,20 @@ Initializing Different Arrays - What will the following code print? ------------
   
 [[100 100 100 100 100]
 [100 100 100 100 100]]  
+
+Initialize Array Problem - What is another way to produce the following array? ------------------------------------------------------
+  [[0. 0. 0. 0. 0. 0. 0.]
+  [0. 1. 1. 1. 1. 1. 0.]
+  [0. 1. 1. 1. 1. 1. 0.]
+  [0. 1. 1. 5. 1. 1. 0.]
+  [0. 1. 1. 1. 1. 1. 0.]
+  [0. 1. 1. 1. 1. 1. 0.]
+  [0. 0. 0. 0. 0. 0. 0.]]
+
+output = np.zeros((7,7))
+
+z = np.ones((5, 5))
+z[2, 2] = 5
+
+output[1:-1, 1:-1] = z
+

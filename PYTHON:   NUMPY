@@ -51,3 +51,5 @@ Copying Arrays Warning - What is the value of a after running the following code
   b = a
   b[2] = 20
 
+[1 2 20 4 5]
+

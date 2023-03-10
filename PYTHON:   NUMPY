@@ -44,3 +44,10 @@ z[2, 2] = 5
 
 output[1:-1, 1:-1] = z
 
+Copying Arrays Warning - What is the value of a after running the following code? --------------------------------------------------
+  import numpy as np
+
+  a = np.array([1, 2, 3, 4, 5])
+  b = a
+  b[2] = 20
+

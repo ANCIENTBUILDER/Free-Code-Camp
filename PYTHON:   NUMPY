@@ -60,7 +60,11 @@ Mathematics - What is the value of b after running the following code? ---------
   b = np.max(a, axis=1).sum()
 15
 
-
+Reorganizing Arrays - What code would produce the following array? ---------------------------------------------------------------
+  [[1. 1.]
+  [1. 1.]
+  [1. 1.]
+  [1. 1.]]
 
 
 

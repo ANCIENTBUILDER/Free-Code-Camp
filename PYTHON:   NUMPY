@@ -2,8 +2,9 @@ PYTHON:   NUMPY
 Start March 10, 2023
 
 What is NumPy - Why are Numpy arrays faster than regular Python lists? ----------------------------------------------------------------
-
 Numpy does not perform type checking while iterating through objects.  Numpy uses fixed types.  Numpy uses contiguous memory.
 All of the above.
 
-
+Basics of Numpy - What will the following code print? --------------------------------------------------------------------------------
+  b = np.array([[1.0,2.0,3.0],[3.0,4.0,5.0]])
+  print(b)

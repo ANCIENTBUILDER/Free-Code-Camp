@@ -77,7 +77,10 @@ Loading Data and Advanced Indexing - Given a file named data.txt with these cont
 
   [29. 32. 45. 15.  5. 22.]
 
+filedata = np.genfromtxt('data.txt', delimiter=',')
+output = filedata[filedata < 50]
 
+print(output)
 
 
 

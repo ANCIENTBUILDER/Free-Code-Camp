@@ -20,3 +20,10 @@ Accessing and Changing Elements, Rows, Columns - What code would change the valu
   
 a[:, 2] = 20  
 
+Initializing Different Arrays - What will the following code print? ------------------------------------------------------------------
+  a = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+
+  print(np.full_like(a, 100))
+  
+[[100 100 100 100 100]
+[100 100 100 100 100]]  

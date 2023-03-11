@@ -51,6 +51,8 @@ Core Learning Algorithms: Building the Model - What kind of estimator/model does
     LinearClassifier
     DNNClassifier
     BoostedTreesClassifier
+DNNClassifier
+
 
 
 

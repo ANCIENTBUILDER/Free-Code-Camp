@@ -23,4 +23,9 @@ You have the average temperature in the month of March for the last 100 years. U
     Linear regression
 Linear regression
 
+Core Learning Algorithms: Working with Data - What does the pandas .head() function do? -----------------------------------------------
+    Returns the number of entries in a data frame.
+    Returns the number of columns in a data frame.
+    By default, shows the first five rows or entries in a data frame.
+By default, shows the first five rows or entries in a data frame.
 

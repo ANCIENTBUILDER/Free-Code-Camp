@@ -47,6 +47,11 @@ Core Learning Algorithms: Classification - What is classification? -------------
     None of the above.
 The process of separating data points into different classes.
 
+Core Learning Algorithms: Building the Model - What kind of estimator/model does TensorFlow recommend using for classification? -----
+    LinearClassifier
+    DNNClassifier
+    BoostedTreesClassifier
+
 
 
 

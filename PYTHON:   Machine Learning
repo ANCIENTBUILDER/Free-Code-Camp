@@ -29,3 +29,8 @@ Core Learning Algorithms: Working with Data - What does the pandas .head() funct
     By default, shows the first five rows or entries in a data frame.
 By default, shows the first five rows or entries in a data frame.
 
+Core Learning Algorithms: Training and Testing Data - What is categorical data? -------------------------------------------------------
+    Another term for one-hot encoding.
+    Any data that is not numeric.
+    Any data that is represented numerically.
+

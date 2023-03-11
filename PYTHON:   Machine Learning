@@ -5,5 +5,13 @@ Introduction: Machine Learning Fundamentals - Which statement below is false? --
   Neural networks are modeled after the way the human brain works.
   Computer programs that play tic-tac-toe or chess against human players are examples of simple artificial intelligence.
   Machine learning is a subset of artificial intelligence.
-
 Neural networks are modeled after the way the human brain works.
+
+Introduction to TensorFlow - Which of the following is not a type of tensor? -----------------------------------------------------------
+  Variable
+  Flowing
+  Placeholder
+  SparseTensor
+  Constant
+Flowing
+

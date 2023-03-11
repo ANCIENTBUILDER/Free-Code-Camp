@@ -34,3 +34,9 @@ Core Learning Algorithms: Training and Testing Data - What is categorical data? 
     Any data that is not numeric.
     Any data that is represented numerically.
 Any data that is not numeric.
+
+Core Learning Algorithms: The Training Process - What are epochs? --------------------------------------------------------------------
+    The number of times the model will see the same data.
+    A type of graph.
+    The number of elements you feed to the model at once.
+

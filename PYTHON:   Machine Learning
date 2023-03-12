@@ -79,6 +79,10 @@ Neural Networks with TensorFlow - A densely connected neural network is one in w
     all the neurons in the current layer are connected to every neuron in the previous layer.
 all the neurons in the current layer are connected to every neuron in the previous layer.
 
+Neural Networks: Activation Functions - Which activation function squishes values between -1 and 1? ----------------------------------
+    ReLU (Rectified Linear Unit)
+    Tanh (Hyperbolic Tangent)
+    Sigmoid
 
 
 

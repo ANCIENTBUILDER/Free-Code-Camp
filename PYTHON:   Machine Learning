@@ -107,6 +107,30 @@ Convolutional Neural Networks - Dense neural networks analyze input on a global 
     scan through the entire input a little at a time and learn local patterns.
 scan through the entire input a little at a time and learn local patterns.
 
+Convolutional Neural Networks: The Convolutional Layer - What are the three main properties of each convolutional layer? ----------------------------------------------------
+    Input size, the number of filters, and the sample size of the filters.
+    Input size, input dimensions, and the color values of the input.
+    Input size, input padding, and stride.
+Input size, the number of filters, and the sample size of the filters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

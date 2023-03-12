@@ -67,6 +67,18 @@ Core Learning Algorithms: Hidden Markov Models - What makes a Hidden Markov mode
     It separates data points into separate categories.
 It uses probability distributions to predict future events or states.
 
+Core Learning Algorithms: Using Probabilities to make Predictions - What TensorFlow module should you import to implement .HiddenMarkovModel()? -----------------------------
+    tensorflow.keras
+    tensorflow_gpu
+    tensorflow_probability
+
+
+
+
+
+
+
+
 
 
 

@@ -113,6 +113,15 @@ Convolutional Neural Networks: The Convolutional Layer - What are the three main
     Input size, input padding, and stride.
 Input size, the number of filters, and the sample size of the filters.
 
+Creating a Convolutional Neural Network - Fill in the blanks below to complete the architecture for a convolutional neural network: ----------------------------------------
+
+    model = models.__A__()
+    model.add(layers.__B__(32, (3, 3), activation='relu', input_shape=(32, 32, 3)))
+    model.add(layers.__C__(2, 2))
+    model.add(layers.__B__(64, (3, 3), activation='relu'))
+    model.add(layers.__C__(2, 2))
+    model.add(layers.__B__(32, (3, 3), activation='relu'))
+    model.add(layers.__C__(2, 2))
 
 
 

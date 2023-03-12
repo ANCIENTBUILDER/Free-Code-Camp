@@ -71,7 +71,7 @@ Core Learning Algorithms: Using Probabilities to make Predictions - What TensorF
     tensorflow.keras
     tensorflow_gpu
     tensorflow_probability
-
+tensorflow_probability
 
 
 

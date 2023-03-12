@@ -61,6 +61,11 @@ Core Learning Algorithms: Clustering - Which of the following steps is not part 
     Reassign each K point to the closest K centeroid.
 Shuffle the K points so they're redistributed randomly.
 
+Core Learning Algorithms: Hidden Markov Models - What makes a Hidden Markov model different than linear regression or classification? ----------------------------------------
+    It uses probability distributions to predict future events or states.
+    It analyzes the relationship between independent and dependent variables to make predictions.
+    It separates data points into separate categories.
+It uses probability distributions to predict future events or states.
 
 
 

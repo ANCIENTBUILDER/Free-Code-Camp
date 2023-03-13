@@ -125,6 +125,11 @@ A: Sequential
 B: Conv2D
 C: MaxPooling2D
 
+Convolutional Neural Networks: Evaluating the Model - What is not a good way to increase the accuracy of a convolutional neural network? ----------------------------------
+    Augmenting the data you already have.
+    Using a pre-trained model.
+    Using your test data to retrain the model.
+
 
 
 

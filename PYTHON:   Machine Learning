@@ -129,7 +129,7 @@ Convolutional Neural Networks: Evaluating the Model - What is not a good way to 
     Augmenting the data you already have.
     Using a pre-trained model.
     Using your test data to retrain the model.
-
+Using your test data to retrain the model.
 
 
 

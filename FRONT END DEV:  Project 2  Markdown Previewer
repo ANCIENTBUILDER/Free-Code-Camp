@@ -43,7 +43,8 @@ const App = () => {
 ReactDOM.render(<App />, document.querySelector("#app"))  
 
 
-
+const Previewer = ({ content }) => <div id="preview" dangerouslySetInnerHTML={{
+  __html: marked(content, { renderer: renderer }) }} />
 --------------------------------------------------------------------------------------------------------------
 css
 

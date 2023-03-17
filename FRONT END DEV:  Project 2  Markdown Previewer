@@ -5,7 +5,42 @@ HTML
 ----------------------------------------------------------
 JAVA
 
+import React from 'https://esm.sh/react@18.2.0'
+import ReactDOM from 'https://esm.sh/react-dom@18.2.0'
 
+marked.setOptions({
+  breaks: true,
+  hightlight: function (code) {
+    return Prism.highlight(code, Prism.languages.javascript, 'javascript');
+  }
+})
+
+const renderer = new marked.Renderer();
+renderer.link = function (href, title, text) {
+  return `<a target="_blank" href="${href}">${text}</a>`;
+};
+
+
+const Editor = ({ content, handleTextareaChange }) => <textarea value={content} onChange={handleTextareaChange} />
+
+const Previewer = ({ content }) => <div id="preview">{content}</div>
+
+const App = () => {
+  const [content, setContent] = React.useState("Markdown by ANCIENT BUILDER")
+  
+  const handleTextareaChange = (event) => {
+    setContent (event.target.value)
+  }
+  
+  return (
+  <div className="main">
+    <Editor content={content} handleTextareaChange={handleTextareaChange} />
+      <Previewer content={content} />
+  </div>
+  )
+}
+
+ReactDOM.render(<App />, document.querySelector("#app"))  
 
 
 
